@@ -4,9 +4,17 @@
 
 /* Global Font and Typography Settings */
 * {
-  font-family: 'Inter', 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Poppins', 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+html, body {
+  overflow-x: hidden;
+  position: relative;
+  width: 100%;
 }
 
 body {
@@ -14,18 +22,35 @@ body {
   line-height: 1.6;
   font-weight: 400;
   color: #ffffff;
-  overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   line-height: 1.2;
   letter-spacing: -0.02em;
 }
 
+h1 {
+  font-weight: 800;
+  letter-spacing: -0.03em;
+}
+
+h2 {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
 p {
-  font-weight: 500;
+  font-weight: 400;
   line-height: 1.8;
+  letter-spacing: 0.01em;
+}
+
+/* Fix for mobile overflow */
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 /* Global Cosmic Background */

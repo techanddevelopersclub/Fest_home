@@ -18,16 +18,16 @@ const SpeakersCard = ({ speakers }) => {
           <img className="object-cover" src={profile_pic} alt={speaker_name} />
         </figure>
         <div className="card-body">
-          <h2 className="text-2xl font-medium">{speaker_name}</h2>
-          <p>{company}</p>
-          <div className="flex justify-between">
+          <h2 className="text-3xl font-bold tracking-tight mb-1">{speaker_name}</h2>
+          <p className="text-lg text-blue-300 font-medium mb-4">{company}</p>
+          <div className="flex justify-between items-center mt-auto">
             <p>
-              <BsFillArrowRightCircleFill className="text-4xl text-rose-400 hover:text-blue-600" />
+              <BsFillArrowRightCircleFill className="text-4xl text-rose-400 hover:text-blue-600 transition-colors duration-300" />
             </p>
-            <p className="flex gap-4 text-4xl">
-              <BsFacebook className="text-blue-500" />
-              <BsTwitter className="text-blue-500" />
-              <BsInstagram className="text-red-600" />
+            <p className="flex gap-5 text-3xl">
+              <BsFacebook className="text-blue-400 hover:text-blue-300 hover:scale-110 transition-all duration-300" />
+              <BsTwitter className="text-blue-400 hover:text-blue-300 hover:scale-110 transition-all duration-300" />
+              <BsInstagram className="text-pink-400 hover:text-pink-300 hover:scale-110 transition-all duration-300" />
             </p>
           </div>
         </div>

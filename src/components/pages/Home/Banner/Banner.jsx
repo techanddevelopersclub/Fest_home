@@ -95,7 +95,7 @@ const Banner = () => {
               to="/events"
               className="text-white text-lg sm:text-xl md:text-2xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 px-10 py-5 rounded-2xl shadow-2xl hover:shadow-purple-500/50 transition-all duration-300 hover:scale-110 border-2 border-white/20"
             >
-              Explore Events
+              Register for Events
             </Link>
             <p className="text-white/90 text-base sm:text-lg font-semibold drop-shadow-lg">
               Join the Celebration
