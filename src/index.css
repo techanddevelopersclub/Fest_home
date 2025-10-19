@@ -1,0 +1,171 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global Font and Typography Settings */
+* {
+  font-family: 'Inter', 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+
+p {
+  font-weight: 500;
+  line-height: 1.8;
+}
+
+/* Global Cosmic Background */
+.cosmic-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  overflow: hidden;
+  background: #0a0a0f;
+}
+
+/* Animated Stars */
+.stars {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: 
+    radial-gradient(2px 2px at 20px 30px, #eee, transparent),
+    radial-gradient(2px 2px at 60px 70px, #fff, transparent),
+    radial-gradient(1px 1px at 50px 50px, #ddd, transparent),
+    radial-gradient(1px 1px at 130px 80px, #fff, transparent),
+    radial-gradient(2px 2px at 90px 10px, #eee, transparent);
+  background-size: 200px 200px;
+  animation: twinkle 8s ease-in-out infinite;
+  opacity: 0.5;
+}
+
+@keyframes twinkle {
+  0%, 100% { opacity: 0.5; }
+  50% { opacity: 0.8; }
+}
+
+/* Nebula Effects */
+.nebula {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(80px);
+  opacity: 0.3;
+  animation: float 20s ease-in-out infinite;
+}
+
+.nebula-1 {
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(circle, #ff6b35, transparent);
+  top: 10%;
+  left: -10%;
+  animation-delay: 0s;
+}
+
+.nebula-2 {
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, #00d4ff, transparent);
+  top: 40%;
+  right: -15%;
+  animation-delay: 3s;
+}
+
+.nebula-3 {
+  width: 450px;
+  height: 450px;
+  background: radial-gradient(circle, #f72585, transparent);
+  bottom: 10%;
+  left: 30%;
+  animation-delay: 6s;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translate(0, 0) scale(1);
+  }
+  33% {
+    transform: translate(30px, -30px) scale(1.1);
+  }
+  66% {
+    transform: translate(-30px, 30px) scale(0.9);
+  }
+}
+
+/* Page Folding Animation */
+@keyframes pageFold {
+  0% {
+    transform: perspective(1200px) rotateY(0deg) translateX(0px) skewY(0deg);
+    transform-origin: left center;
+    opacity: 1;
+    filter: brightness(1);
+  }
+  25% {
+    transform: perspective(1200px) rotateY(-20deg) translateX(-50px) skewY(-2deg);
+    transform-origin: left center;
+    opacity: 0.9;
+    filter: brightness(0.9);
+  }
+  50% {
+    transform: perspective(1200px) rotateY(-50deg) translateX(-150px) skewY(-5deg);
+    transform-origin: left center;
+    opacity: 0.7;
+    filter: brightness(0.8);
+  }
+  75% {
+    transform: perspective(1200px) rotateY(-80deg) translateX(-300px) skewY(-8deg);
+    transform-origin: left center;
+    opacity: 0.3;
+    filter: brightness(0.6);
+  }
+  100% {
+    transform: perspective(1200px) rotateY(-90deg) translateX(-400px) skewY(-10deg);
+    transform-origin: left center;
+    opacity: 0;
+    filter: brightness(0.4);
+  }
+}
+
+@keyframes pageShadow {
+  0% {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  25% {
+    box-shadow: -15px 10px 30px rgba(0, 0, 0, 0.2);
+  }
+  50% {
+    box-shadow: -30px 20px 50px rgba(0, 0, 0, 0.3);
+  }
+  75% {
+    box-shadow: -45px 30px 70px rgba(0, 0, 0, 0.4);
+  }
+  100% {
+    box-shadow: -60px 40px 90px rgba(0, 0, 0, 0.5);
+  }
+}
+
+.page-folding {
+  animation: pageFold 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+}
+
+.page-shadow {
+  animation: pageShadow 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+}

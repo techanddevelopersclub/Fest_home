@@ -1,0 +1,483 @@
+/* Main Container - Background set to transparent to use global cosmic background */
+.sponsors-page {
+  min-height: 100vh;
+  background-color: transparent;
+  color: white;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Background Layers */
+.background-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  overflow: hidden;
+}
+
+/* Animated Stars */
+@keyframes twinkle {
+  0%, 100% { opacity: 0.3; }
+  50% { opacity: 1; }
+}
+
+@keyframes moveUp {
+  from { transform: translateY(100vh); }
+  to { transform: translateY(-100vh); }
+}
+
+.stars-layer {
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  top: -50%;
+  left: -50%;
+}
+
+.stars-layer-1 {
+  background-image: 
+    radial-gradient(2px 2px at 20% 30%, white, transparent),
+    radial-gradient(2px 2px at 60% 70%, white, transparent),
+    radial-gradient(1px 1px at 50% 50%, white, transparent),
+    radial-gradient(1px 1px at 80% 10%, white, transparent),
+    radial-gradient(2px 2px at 90% 60%, white, transparent),
+    radial-gradient(1px 1px at 33% 90%, white, transparent);
+  background-size: 200px 200px, 300px 300px, 150px 150px, 250px 250px, 350px 350px, 180px 180px;
+  animation: moveUp 100s linear infinite, twinkle 3s ease-in-out infinite;
+}
+
+.stars-layer-2 {
+  background-image: 
+    radial-gradient(1px 1px at 10% 20%, rgba(147, 197, 253, 0.8), transparent),
+    radial-gradient(2px 2px at 40% 80%, rgba(147, 197, 253, 0.8), transparent),
+    radial-gradient(1px 1px at 70% 40%, rgba(147, 197, 253, 0.8), transparent),
+    radial-gradient(1px 1px at 85% 75%, rgba(147, 197, 253, 0.8), transparent);
+  background-size: 300px 300px, 400px 400px, 250px 250px, 350px 350px;
+  animation: moveUp 150s linear infinite, twinkle 5s ease-in-out infinite 1s;
+}
+
+.stars-layer-3 {
+  background-image: 
+    radial-gradient(1px 1px at 25% 60%, rgba(96, 165, 250, 0.6), transparent),
+    radial-gradient(1px 1px at 75% 25%, rgba(96, 165, 250, 0.6), transparent),
+    radial-gradient(2px 2px at 45% 85%, rgba(96, 165, 250, 0.6), transparent);
+  background-size: 500px 500px, 450px 450px, 380px 380px;
+  animation: moveUp 200s linear infinite, twinkle 7s ease-in-out infinite 2s;
+}
+
+.gradient-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    180deg,
+    rgba(10, 10, 15, 0.7) 0%,
+    rgba(10, 10, 15, 0.3) 30%,
+    rgba(10, 10, 15, 0.3) 70%,
+    rgba(10, 10, 15, 0.9) 100%
+  );
+  pointer-events: none;
+}
+
+/* Content Wrapper */
+.content-wrapper {
+  position: relative;
+  z-index: 10;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+}
+
+/* Header Section */
+.header-section {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.title-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.award-icon {
+  color: #60a5fa;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+.pulse {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.main-title {
+  font-size: 3.5rem;
+  font-weight: 800;
+  background: linear-gradient(135deg, #60a5fa 0%, #3b82f6 50%, #2563eb 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin: 0;
+}
+
+.subtitle {
+  font-size: 1.25rem;
+  color: #cbd5e1;
+  max-width: 900px;
+  line-height: 1.8;
+  margin: 0;
+}
+
+.title-divider {
+  width: 8rem;
+  height: 4px;
+  background: linear-gradient(90deg, transparent, #60a5fa, transparent);
+  border-radius: 2px;
+}
+
+/* Sponsors Grid */
+.sponsors-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+  margin-bottom: 6rem;
+}
+
+/* Sponsor Card */
+.sponsor-card {
+  position: relative;
+  background: rgba(15, 23, 42, 0.6);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(51, 65, 85, 0.6);
+  border-radius: 1rem;
+  padding: 2rem;
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  overflow: hidden;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sponsor-card:hover {
+  border-color: rgba(59, 130, 246, 0.5);
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(59, 130, 246, 0.2);
+}
+
+/* Tier Badge */
+.tier-badge {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #0f172a;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  z-index: 20;
+}
+
+/* Card Glow Effect */
+.card-glow {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    135deg,
+    rgba(59, 130, 246, 0) 0%,
+    rgba(59, 130, 246, 0) 50%,
+    rgba(59, 130, 246, 0) 100%
+  );
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.sponsor-card:hover .card-glow {
+  opacity: 1;
+  background: linear-gradient(
+    135deg,
+    rgba(59, 130, 246, 0.1) 0%,
+    rgba(96, 165, 250, 0.05) 50%,
+    rgba(59, 130, 246, 0.1) 100%
+  );
+}
+
+/* Logo */
+.logo-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.logo-wrapper {
+  position: relative;
+  width: 128px;
+  height: 128px;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  border: 2px solid rgba(51, 65, 85, 0.8);
+  transition: all 0.3s ease;
+}
+
+.sponsor-card:hover .logo-wrapper {
+  border-color: rgba(59, 130, 246, 0.5);
+  transform: scale(1.1);
+}
+
+.sponsor-logo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.logo-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(10, 10, 15, 0.6), transparent);
+}
+
+/* Company Info */
+.company-name {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin: 0 0 0.75rem 0;
+  transition: color 0.3s ease;
+}
+
+.sponsor-card:hover .company-name {
+  color: #60a5fa;
+}
+
+.company-description {
+  color: #94a3b8;
+  text-align: center;
+  font-size: 0.875rem;
+  margin: 0 0 1.5rem 0;
+  line-height: 1.6;
+}
+
+/* Quote Section */
+.quote-section {
+  margin-top: auto;
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.quote-section.visible {
+  max-height: 500px;
+  opacity: 1;
+}
+
+.quote-content {
+  background: transparent;
+  backdrop-filter: none;
+  border-radius: 1rem;
+  padding: 3rem;
+  border: none;
+  box-shadow: none;
+}
+
+.quote-icon {
+  color: #3b82f6;
+  margin-bottom: 0.5rem;
+}
+
+.quote-text {
+  color: #ffffff;
+  font-size: 1.25rem;
+  font-style: italic;
+  line-height: 1.8;
+  margin: 0 0 1rem 0;
+  font-weight: 500;
+}
+
+.website-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #60a5fa;
+  font-size: 0.875rem;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.website-link:hover {
+  color: #93c5fd;
+}
+
+.link-icon {
+  transition: transform 0.2s ease;
+}
+
+.website-link:hover .link-icon {
+  transform: translateX(4px);
+}
+
+/* CTA Section */
+.cta-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+}
+
+.cta-card {
+  max-width: 800px;
+  width: 100%;
+  background: rgba(15, 23, 42, 0.6);
+  backdrop-filter: blur(12px);
+  border-radius: 1.5rem;
+  padding: 3rem;
+  text-align: center;
+  border: 1px solid rgba(51, 65, 85, 0.6);
+}
+
+.cta-title {
+  font-size: 2rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, #60a5fa 0%, #3b82f6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin: 0 0 1rem 0;
+}
+
+.cta-text {
+  color: #cbd5e1;
+  line-height: 1.7;
+  margin: 0 0 2rem 0;
+}
+
+.cta-button {
+  padding: 1rem 2rem;
+  background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 14px rgba(37, 99, 235, 0.4);
+}
+
+.cta-button:hover {
+  background: linear-gradient(135deg, #1d4ed8 0%, #1e40af 100%);
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(37, 99, 235, 0.6);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .main-title {
+    font-size: 2.5rem;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+  }
+
+  .sponsors-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .cta-card {
+    padding: 2rem;
+  }
+
+  .content-wrapper {
+    padding: 2rem 1rem;
+  }
+}
+
+/* Additional Responsive Design for Larger Screens */
+@media (min-width: 1200px) {
+  .main-title {
+    font-size: 4rem;
+  }
+
+  .subtitle {
+    font-size: 1.5rem;
+  }
+
+  .sponsors-grid {
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 3rem;
+  }
+
+  .content-wrapper {
+    padding: 6rem 3rem;
+  }
+
+  .cta-title {
+    font-size: 2.5rem;
+  }
+}
+
+/* Enhanced Mobile Responsiveness */
+@media (max-width: 480px) {
+  .main-title {
+    font-size: 2rem;
+  }
+
+  .subtitle {
+    font-size: 0.875rem;
+  }
+
+  .sponsor-card {
+    padding: 1.5rem;
+    min-height: 350px;
+  }
+
+  .logo-wrapper {
+    width: 100px;
+    height: 100px;
+  }
+
+  .cta-card {
+    padding: 1.5rem;
+  }
+
+  .cta-title {
+    font-size: 1.5rem;
+  }
+
+  .cta-text {
+    font-size: 0.875rem;
+  }
+}
+
+/* Medium Screen Adjustments */
+@media (min-width: 769px) and (max-width: 1199px) {
+  .sponsors-grid {
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2.5rem;
+  }
+
+  .main-title {
+    font-size: 3rem;
+  }
+
+  .subtitle {
+    font-size: 1.125rem;
+  }
+}

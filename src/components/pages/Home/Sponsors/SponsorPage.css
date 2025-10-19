@@ -1,0 +1,385 @@
+/* Main Container - Background set to transparent to use global cosmic background */
+.sponsors-page {
+  min-height: 100vh;
+  background-color: transparent;
+  color: white;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Use global cosmic background - Remove custom stars */
+
+/* Content Wrapper */
+.content-wrapper {
+  position: relative;
+  z-index: 10;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 2rem 2rem;
+}
+
+/* Header Section */
+.header-section {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.title-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.award-icon {
+  color: #ec4899;
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+.main-title {
+  font-size: 3.5rem;
+  font-weight: 800;
+  background: linear-gradient(135deg, #ec4899 0%, #f97316 50%, #ea580c 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.subtitle {
+  font-size: 1.25rem;
+  color: #cbd5e1;
+  max-width: 900px;
+  line-height: 1.8;
+  margin: 0;
+}
+
+.title-divider {
+  width: 8rem;
+  height: 4px;
+  background: linear-gradient(90deg, #ec4899, #f97316, #ea580c);
+  border-radius: 2px;
+}
+
+/* Sponsors Grid */
+.sponsors-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+  margin-bottom: 6rem;
+}
+
+/* Sponsor Card */
+.sponsor-card {
+  position: relative;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(20px);
+  border: 3px solid rgba(255, 255, 255, 0.1);
+  border-radius: 2rem;
+  padding: 3rem 2rem;
+  transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  overflow: hidden;
+  min-height: 450px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 10px 40px rgba(236, 72, 153, 0.2);
+}
+
+.sponsor-card:hover {
+  border-color: rgba(236, 72, 153, 0.6);
+  transform: translateY(-12px) scale(1.02);
+  box-shadow: 0 25px 60px rgba(236, 72, 153, 0.5),
+              0 0 80px rgba(236, 72, 153, 0.3);
+  background: rgba(255, 255, 255, 0.08);
+}
+
+/* Tier Badge */
+.tier-badge {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  font-weight: 900;
+  color: #ffffff;
+  background: linear-gradient(135deg, #ec4899, #f97316, #fbbf24);
+  box-shadow: 0 6px 20px rgba(236, 72, 153, 0.5),
+              0 0 30px rgba(236, 72, 153, 0.3);
+  z-index: 20;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  animation: pulse 3s ease-in-out infinite;
+}
+
+.tier-badge:hover {
+  transform: scale(1.1);
+}
+
+/* Card Glow Effect */
+.card-glow {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    135deg,
+    rgba(236, 72, 153, 0) 0%,
+    rgba(236, 72, 153, 0) 50%,
+    rgba(236, 72, 153, 0) 100%
+  );
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.sponsor-card:hover .card-glow {
+  opacity: 1;
+  background: linear-gradient(
+    135deg,
+    rgba(236, 72, 153, 0.1) 0%,
+    rgba(245, 115, 22, 0.05) 50%,
+    rgba(236, 72, 153, 0.1) 100%
+  );
+}
+
+/* Logo */
+.logo-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.logo-wrapper {
+  position: relative;
+  width: 160px;
+  height: 160px;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  box-shadow: 0 15px 40px rgba(236, 72, 153, 0.4),
+              0 0 50px rgba(236, 72, 153, 0.2);
+  border: 4px solid rgba(236, 72, 153, 0.4);
+  transition: all 0.5s ease;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.sponsor-card:hover .logo-wrapper {
+  border-color: rgba(236, 72, 153, 1);
+  transform: scale(1.15) rotate(3deg);
+  box-shadow: 0 20px 60px rgba(236, 72, 153, 0.6),
+              0 0 80px rgba(236, 72, 153, 0.4);
+}
+
+.sponsor-logo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 0.5s ease;
+}
+
+.sponsor-card:hover .sponsor-logo {
+  transform: scale(1.1);
+}
+
+.logo-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.3), transparent);
+  pointer-events: none;
+}
+
+/* Company Info */
+.company-name {
+  font-size: 1.75rem;
+  font-weight: 900;
+  text-align: center;
+  margin: 0 0 1rem 0;
+  transition: all 0.3s ease;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 0 4px 12px rgba(236, 72, 153, 0.3);
+}
+
+.sponsor-card:hover .company-name {
+  background: linear-gradient(135deg, #ec4899, #f97316);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  transform: scale(1.05);
+}
+
+.company-description {
+  color: #cbd5e1;
+  text-align: center;
+  font-size: 1rem;
+  margin: 0 0 2rem 0;
+  line-height: 1.8;
+  font-weight: 500;
+}
+
+/* Quote Section */
+.quote-section {
+  margin-top: auto;
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.quote-section.visible {
+  max-height: 500px;
+  opacity: 1;
+}
+
+.quote-content {
+  background: transparent;
+  backdrop-filter: none;
+  border-radius: 1rem;
+  padding: 3rem;
+  border: none;
+  box-shadow: none;
+}
+
+.quote-icon {
+  color: #ec4899;
+  margin-bottom: 0.5rem;
+}
+
+.quote-text {
+  color: #ffffff;
+  font-size: 1.25rem;
+  font-style: italic;
+  line-height: 1.8;
+  margin: 0 0 1rem 0;
+  font-weight: 500;
+}
+
+.website-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #ec4899;
+  font-size: 0.875rem;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.website-link:hover {
+  color: #f97316;
+}
+
+.link-icon {
+  transition: transform 0.2s ease;
+}
+
+.website-link:hover .link-icon {
+  transform: translateX(4px);
+}
+
+/* CTA Section */
+.cta-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.cta-card {
+  max-width: 1000px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(20px);
+  border-radius: 2rem;
+  padding: 4rem 3rem;
+  text-align: center;
+  border: 3px solid rgba(236, 72, 153, 0.4);
+  box-shadow: 0 20px 60px rgba(236, 72, 153, 0.3),
+              0 0 80px rgba(236, 72, 153, 0.2);
+  transition: all 0.5s ease;
+}
+
+.cta-card:hover {
+  transform: translateY(-8px);
+  border-color: rgba(236, 72, 153, 0.8);
+  box-shadow: 0 30px 80px rgba(236, 72, 153, 0.5),
+              0 0 120px rgba(236, 72, 153, 0.4);
+}
+
+.cta-title {
+  font-size: 3rem;
+  font-weight: 900;
+  background: linear-gradient(135deg, #ec4899 0%, #f97316 50%, #fbbf24 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin: 0 0 1.5rem 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 0 10px 30px rgba(236, 72, 153, 0.5);
+}
+
+.cta-text {
+  color: #ffffff;
+  line-height: 1.9;
+  margin: 0 0 3rem 0;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.cta-button {
+  padding: 1.25rem 3rem;
+  background: linear-gradient(135deg, #ec4899 0%, #f97316 50%, #fbbf24 100%);
+  color: white;
+  border: none;
+  border-radius: 1rem;
+  font-size: 1.125rem;
+  font-weight: 800;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  box-shadow: 0 8px 24px rgba(236, 72, 153, 0.5),
+              0 0 40px rgba(236, 72, 153, 0.3);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.cta-button:hover {
+  background: linear-gradient(135deg, #f97316 0%, #fbbf24 50%, #ec4899 100%);
+  transform: scale(1.1) translateY(-4px);
+  box-shadow: 0 12px 40px rgba(236, 72, 153, 0.7),
+              0 0 60px rgba(236, 72, 153, 0.5);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .main-title {
+    font-size: 2.5rem;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+  }
+
+  .sponsors-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .cta-card {
+    padding: 2rem;
+  }
+
+  .content-wrapper {
+    padding: 2rem 1rem;
+  }
+}
