@@ -3,7 +3,7 @@ import {
   BsTwitter,
   BsInstagram,
   BsFillArrowRightCircleFill,
-} from "react-icons/Bs";
+} from "react-icons/bs";
 
 const SpeakersCard = ({ speakers }) => {
   const { speaker_name, company, profile_pic } = speakers.speaker;
