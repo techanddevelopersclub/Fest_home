@@ -28,7 +28,7 @@ const router = createBrowserRouter([
 
       {
         path: "/events",
-        element: <ExternalRedirect to={`${import.meta.env.VITE_MAIN_SITE_URL}/events`} />,
+        element: <ExternalRedirect to={`${import.meta.env.VITE_MAIN_SITE_URL}`} />,
       },
       {
         path: "/event/:id",
@@ -99,7 +99,7 @@ function ExternalRedirect({ to }) {
 
 function EventExternalRedirect() {
   const { id } = useParams();
-  const url = `${import.meta.env.VITE_MAIN_SITE_URL}/event/${id}`;
+  const url = `${import.meta.env.VITE_MAIN_SITE_URL}`;
   useEffect(() => {
     window.location.href = url;
   }, [url]);
