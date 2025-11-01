@@ -22,7 +22,7 @@ const Home = () => {
       <Events events={events} />
 
       <div className="mt-32">
-        <Schedule scheduleData={events} />
+        <Schedule />
       </div>
     </div>
   );
