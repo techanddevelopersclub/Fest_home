@@ -13,12 +13,12 @@ const EventCard = ({ eventsData }) => {
           <img className="object-cover w-full h-96" src={image} alt="Shoes" />
         </figure>
         <div className="card-body">
-          <h2 className="card-title">{name}</h2>
-          <p>{short_description.slice(0, 60)}</p>
+          <h2 className="card-title font-display">{name}</h2>
+          <p className="font-body font-light text-white/80">{short_description.slice(0, 60)}</p>
           <div className="card-actions justify-end">
             <Link
               to={`/event/${id}`}
-              className="text-white w-full mt-2 bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">
+              className="text-white w-full mt-2 bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 focus:ring-4 focus:outline-none focus:ring-purple-300 font-display rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 transition-all duration-300 shadow-lg hover:shadow-purple-500/50">
               Details
             </Link>
           </div>

@@ -82,13 +82,13 @@ const SponsorsPage = () => {
         <div className="text-center mb-20">
           <div className="flex items-center justify-center gap-4 mb-6">
             <Award className="text-yellow-400 animate-pulse" size={48} />
-            <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black text-white drop-shadow-2xl">
+            <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-display font-black text-white drop-shadow-2xl">
               Our Sponsors
             </h1>
             <Award className="text-yellow-400 animate-pulse" size={48} />
           </div>
           <div className="h-1.5 w-48 bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500 rounded-full mx-auto shadow-lg shadow-orange-400/50 mb-6"></div>
-          <p className="text-white text-lg sm:text-xl md:text-2xl font-medium drop-shadow-lg max-w-4xl mx-auto">
+          <p className="text-white/90 text-lg sm:text-xl md:text-2xl font-body font-light drop-shadow-lg max-w-4xl mx-auto">
             We are grateful to our esteemed partners who believe in our vision and support our journey towards excellence in education and innovation.
           </p>
         </div>
@@ -166,7 +166,7 @@ const SponsorsPage = () => {
             <p className="cta-text">
               Join our community of forward-thinking partners and help shape the future of education and innovation.
             </p>
-            <button className="cta-button">
+            <button className="cta-button font-display">
               Get in Touch
             </button>
           </div>

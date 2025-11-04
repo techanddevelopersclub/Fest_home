@@ -19,10 +19,10 @@ const AboutUs = () => {
         
         <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-transparent to-black/40 flex items-center justify-center">
           <div data-aos="fade-up" className="text-center text-white px-6">
-            <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black mb-6 text-white drop-shadow-2xl">
+            <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-display font-black mb-6 text-white drop-shadow-2xl">
               About THDC IHET
             </h1>
-            <p className="text-2xl sm:text-3xl md:text-4xl font-bold text-white drop-shadow-xl">
+            <p className="text-2xl sm:text-3xl md:text-4xl font-display font-bold text-white drop-shadow-xl">
               Asia's First Hydropower Engineering College
             </p>
           </div>
@@ -34,18 +34,18 @@ const AboutUs = () => {
         <div className="space-y-16">
           {/* Institute Description */}
           <div data-aos="fade-up" data-aos-duration="1000">
-            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-10 text-white text-center">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-display font-bold mb-10 text-white text-center">
               THDC Institute of Hydropower Engineering and Technology
             </h2>
-            <div className="text-white space-y-8 text-lg sm:text-xl md:text-2xl leading-relaxed font-medium">
+            <div className="text-white/90 space-y-8 text-lg sm:text-xl md:text-2xl leading-relaxed font-body font-light">
               <p data-aos="fade-up" data-aos-delay="100" className="drop-shadow-lg">
-                <span className="font-bold">THDC Institute of Hydropower Engineering and Technology</span> is Asia's first Hydropower Engineering college and also the first constituent institute of Uttarakhand Technical University to become a world-class comprehensive institute with a mission of high-quality undergraduate programs and high-caliber research development in cutting-edge areas.
+                <span className="font-display font-semibold text-white">THDC Institute of Hydropower Engineering and Technology</span> is Asia's first Hydropower Engineering college and also the first constituent institute of Uttarakhand Technical University to become a world-class comprehensive institute with a mission of high-quality undergraduate programs and high-caliber research development in cutting-edge areas.
               </p>
               <p data-aos="fade-up" data-aos-delay="200" className="drop-shadow-lg">
                 The institute is situated at B. Puram, Tehri, approximately 150 km from the capital city – Dehradun on the beautiful site of the THDC project.
               </p>
               <p data-aos="fade-up" data-aos-delay="300" className="drop-shadow-lg">
-                THDC Institute of Hydropower Engineering and Technology, Tehri has received the <span className="font-bold">"Excellent Institute for Promoting Hydropower in Uttarakhand"</span> in the 2nd National Uttarakhand Education Summit and Awards 2015 by the CMAI Association of India.
+                THDC Institute of Hydropower Engineering and Technology, Tehri has received the <span className="font-display font-semibold text-white">"Excellent Institute for Promoting Hydropower in Uttarakhand"</span> in the 2nd National Uttarakhand Education Summit and Awards 2015 by the CMAI Association of India.
               </p>
             </div>
           </div>
@@ -57,10 +57,10 @@ const AboutUs = () => {
 
           {/* College Photo Section */}
           <div data-aos="fade-up" data-aos-duration="1000">
-            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-10 text-white text-center">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-display font-bold mb-10 text-white text-center">
               Our Campus
             </h2>
-            <div className="relative rounded-3xl overflow-hidden shadow-2xl shadow-pink-500/50 border-4 border-white/20 hover:border-pink-400/60 transition-all duration-500 group">
+            <div className="relative rounded-3xl overflow-hidden shadow-2xl shadow-purple-500/50 border-4 border-white/20 hover:border-purple-400/60 transition-all duration-500 group">
               <img
                 src={campusMap}
                 alt="THDC IHET Campus Map"
@@ -71,7 +71,7 @@ const AboutUs = () => {
                   <p className="text-white text-2xl md:text-3xl font-bold drop-shadow-2xl">
                     THDC Institute of Hydropower Engineering and Technology
                   </p>
-                  <p className="text-pink-300 text-lg md:text-xl font-semibold mt-2 drop-shadow-lg">
+                  <p className="text-purple-300 text-lg md:text-xl font-body font-light mt-2 drop-shadow-lg">
                     B. Puram, Tehri, Uttarakhand • Bhagirathi River
                   </p>
                 </div>
@@ -86,44 +86,44 @@ const AboutUs = () => {
 
           {/* About Cieszyc Festival */}
           <div data-aos="fade-up" data-aos-duration="1000">
-            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-10 text-white text-center">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-display font-bold mb-10 text-white text-center">
               About Cieszyc Festival
             </h2>
-            <div className="text-white space-y-8 text-lg sm:text-xl md:text-2xl leading-relaxed font-medium">
+            <div className="text-white/90 space-y-8 text-lg sm:text-xl md:text-2xl leading-relaxed font-body font-light">
               <p data-aos="fade-up" data-aos-delay="100" className="drop-shadow-lg">
-                The college festival, <span className="font-bold">Cieszyc</span>, is an opportunity to serve the purpose of exhilarating innovative ideas into the students up to a great extent. A competition between the best minds existing in or around the college will allow the best of the ideas to come out.
+                The college festival, <span className="font-display font-semibold text-white">Cieszyc</span>, is an opportunity to serve the purpose of exhilarating innovative ideas into the students up to a great extent. A competition between the best minds existing in or around the college will allow the best of the ideas to come out.
               </p>
               
-              <h3 data-aos="fade-up" data-aos-delay="200" className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mt-12 mb-8 drop-shadow-lg">
+              <h3 data-aos="fade-up" data-aos-delay="200" className="text-2xl sm:text-3xl md:text-4xl font-subheading font-semibold text-white mt-12 mb-8 drop-shadow-lg">
                 Purpose of Cieszyc:
               </h3>
-              <ul className="space-y-6 list-none">
+              <ul className="space-y-6 list-none font-body">
                 <li data-aos="fade-up" data-aos-delay="250" className="flex items-start hover:translate-x-2 transition-transform duration-300">
-                  <span className="text-white mr-4 text-2xl md:text-3xl font-bold">•</span>
+                  <span className="text-purple-400 mr-4 text-2xl md:text-3xl font-display font-bold">•</span>
                   <span className="text-lg sm:text-xl md:text-2xl drop-shadow-lg">It will help the institution to bring together students from across the country.</span>
                 </li>
                 <li data-aos="fade-up" data-aos-delay="300" className="flex items-start hover:translate-x-2 transition-transform duration-300">
-                  <span className="text-white mr-4 text-2xl md:text-3xl font-bold">•</span>
+                  <span className="text-purple-400 mr-4 text-2xl md:text-3xl font-display font-bold">•</span>
                   <span className="text-lg sm:text-xl md:text-2xl drop-shadow-lg">The fest will promote innovative ideas and allow students to share their knowledge and ideas with other students.</span>
                 </li>
                 <li data-aos="fade-up" data-aos-delay="350" className="flex items-start hover:translate-x-2 transition-transform duration-300">
-                  <span className="text-white mr-4 text-2xl md:text-3xl font-bold">•</span>
+                  <span className="text-purple-400 mr-4 text-2xl md:text-3xl font-display font-bold">•</span>
                   <span className="text-lg sm:text-xl md:text-2xl drop-shadow-lg">Attending the fest will give information on the different fields of study.</span>
                 </li>
               </ul>
 
               <p data-aos="fade-up" data-aos-delay="400" className="mt-10 text-lg sm:text-xl md:text-2xl drop-shadow-lg">
-                Events, quizzes, seminars, music, and dance are part of the college fest, making it a <span className="font-bold">vibrant celebration of talent, creativity, and innovation</span>.
+                Events, quizzes, seminars, music, and dance are part of the college fest, making it a <span className="font-display font-semibold text-white">vibrant celebration of talent, creativity, and innovation</span>.
               </p>
             </div>
 
             <div data-aos="zoom-in" data-aos-delay="500" className="mt-16 flex justify-center">
-              <Link
-                to="/events"
-                className="text-white text-xl sm:text-2xl md:text-3xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 px-12 py-6 rounded-2xl shadow-2xl hover:shadow-purple-500/50 transition-all duration-300 hover:scale-110 border-2 border-white/20"
+              <a
+                href={import.meta.env.VITE_MAIN_SITE_URL || "#"}
+                className="text-white text-xl sm:text-2xl md:text-3xl font-display font-bold bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 px-12 py-6 rounded-2xl shadow-2xl hover:shadow-purple-500/50 transition-all duration-300 hover:scale-110 border-2 border-white/20 inline-block"
               >
                 Explore Events
-              </Link>
+              </a>
             </div>
           </div>
 
@@ -136,13 +136,13 @@ const AboutUs = () => {
           <div data-aos="fade-up" data-aos-duration="1000" className="pb-16">
             <div className="text-center mb-12">
               <div className="flex items-center justify-center gap-4 mb-6">
-                <MapPin className="text-pink-400 animate-pulse" size={48} />
-                <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white">
+                <MapPin className="text-purple-400 animate-pulse" size={48} />
+                <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-display font-bold text-white">
                   How to Reach Us
                 </h2>
                 <Navigation className="text-pink-400 animate-pulse" size={48} />
               </div>
-              <p className="text-white text-xl sm:text-2xl md:text-3xl font-medium drop-shadow-lg">
+              <p className="text-white/90 text-xl sm:text-2xl md:text-3xl font-body font-light drop-shadow-lg">
                 Click the map to get directions from your location
               </p>
             </div>
@@ -153,9 +153,9 @@ const AboutUs = () => {
               rel="noopener noreferrer"
               className="block max-w-5xl mx-auto group"
             >
-              <div className="relative rounded-3xl overflow-hidden shadow-2xl shadow-pink-500/50 border-4 border-white/20 hover:border-pink-400/80 transition-all duration-500 cursor-pointer">
+              <div className="relative rounded-3xl overflow-hidden shadow-2xl shadow-purple-500/50 border-4 border-white/20 hover:border-purple-400/80 transition-all duration-500 cursor-pointer">
                 {/* Map Preview Image - Using a static map placeholder */}
-                <div className="relative h-[400px] md:h-[500px] bg-gradient-to-br from-pink-500/20 to-purple-500/20 flex items-center justify-center">
+                <div className="relative h-[400px] md:h-[500px] bg-gradient-to-br from-purple-500/20 to-pink-500/20 flex items-center justify-center">
                   <img
                     src="https://images.unsplash.com/photo-1524661135-423995f22d0b?w=1200&h=600&fit=crop"
                     alt="Campus Location Map"
@@ -165,18 +165,18 @@ const AboutUs = () => {
                   {/* Overlay with Instructions */}
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-black/60 group-hover:from-black/70 group-hover:via-black/30 group-hover:to-black/50 transition-all duration-500">
                     <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-6">
-                      <div className="bg-white/10 backdrop-blur-xl rounded-full p-8 mb-6 group-hover:scale-110 transition-transform duration-500 border-4 border-white/30 group-hover:border-pink-400/60">
-                        <MapPin size={64} className="text-pink-400 group-hover:animate-bounce" />
+                      <div className="bg-white/10 backdrop-blur-xl rounded-full p-8 mb-6 group-hover:scale-110 transition-transform duration-500 border-4 border-white/30 group-hover:border-purple-400/60">
+                        <MapPin size={64} className="text-purple-400 group-hover:animate-bounce" />
                       </div>
-                      <h3 className="text-white text-3xl md:text-4xl lg:text-5xl font-black mb-4 drop-shadow-2xl">
+                      <h3 className="text-white text-3xl md:text-4xl lg:text-5xl font-display font-black mb-4 drop-shadow-2xl">
                         Get Directions
                       </h3>
-                      <p className="text-pink-300 text-xl md:text-2xl font-bold mb-6 drop-shadow-xl">
+                      <p className="text-purple-300 text-xl md:text-2xl font-display font-bold mb-6 drop-shadow-xl">
                         THDC IHET, B. Puram, Tehri
                       </p>
-                      <div className="flex items-center gap-3 bg-gradient-to-r from-pink-500 to-purple-500 px-8 py-4 rounded-full shadow-2xl group-hover:shadow-pink-500/50 group-hover:scale-110 transition-all duration-300">
+                      <div className="flex items-center gap-3 bg-gradient-to-r from-purple-600 to-pink-600 px-8 py-4 rounded-full shadow-2xl group-hover:shadow-purple-500/50 group-hover:scale-110 transition-all duration-300">
                         <Navigation size={24} className="text-white" />
-                        <span className="text-white text-lg md:text-xl font-bold">
+                        <span className="text-white text-lg md:text-xl font-display font-bold">
                           Click to Navigate
                         </span>
                       </div>
@@ -186,9 +186,9 @@ const AboutUs = () => {
                   {/* Pulsing Location Pin */}
                   <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-full">
                     <div className="relative">
-                      <MapPin size={48} className="text-pink-500 drop-shadow-2xl animate-pulse" />
+                      <MapPin size={48} className="text-purple-500 drop-shadow-2xl animate-pulse" />
                       <div className="absolute inset-0 animate-ping">
-                        <MapPin size={48} className="text-pink-400 opacity-75" />
+                        <MapPin size={48} className="text-purple-400 opacity-75" />
                       </div>
                     </div>
                   </div>
@@ -197,7 +197,7 @@ const AboutUs = () => {
 
               {/* Helper Text */}
               <div className="text-center mt-6">
-                <p className="text-white/80 text-lg font-semibold">
+                <p className="text-white/80 text-lg font-body font-light">
                   📍 Opens in Google Maps with directions from your current location
                 </p>
               </div>

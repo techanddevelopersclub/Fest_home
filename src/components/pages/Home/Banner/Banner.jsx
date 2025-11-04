@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import { Volume2, VolumeX } from "lucide-react";
 import { useState, useRef, useEffect } from "react";
 import bgVideo from "../../../../assets/video/video.mp4";
@@ -39,7 +38,7 @@ const Banner = () => {
       {/* Unmute Button */}
       <div className="absolute top-6 right-6 z-30 flex items-center gap-3">
         {showTooltip && isMuted && (
-          <div className="bg-gradient-to-r from-pink-500 to-purple-500 text-white px-4 py-2 rounded-full text-sm font-bold shadow-2xl animate-bounce">
+          <div className="bg-gradient-to-r from-purple-600/90 to-pink-600/90 text-white px-4 py-2 rounded-full text-xs font-display font-semibold shadow-lg backdrop-blur-sm border border-white/20 animate-bounce">
             🔊 Click to Enable Sound
           </div>
         )}
@@ -78,26 +77,35 @@ const Banner = () => {
         >
           {/* Left Side - Event Title */}
           <div className="text-center lg:text-left">
-            <p className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black mb-4 text-white drop-shadow-2xl">
-              CIESZYC
-            </p>
-            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white drop-shadow-xl">
+            <div className="mb-4 drop-shadow-2xl">
+              <img 
+                src="/CIESZYC '25_20251014_023007_0000.png" 
+                alt="CIESZYC '25" 
+                className="max-w-full h-auto w-auto mx-auto lg:mx-0 object-contain"
+                style={{ 
+                  maxHeight: 'clamp(80px, 15vw, 150px)',
+                  height: 'auto',
+                  width: 'auto'
+                }}
+              />
+            </div>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-display font-bold text-white drop-shadow-xl">
               Caravan of the Wonders
             </h2>
-            <p className="text-lg sm:text-xl md:text-2xl text-white/90 mt-4 font-semibold drop-shadow-lg">
-              October 13, 2025
+            <p className="text-lg sm:text-xl md:text-2xl text-white/90 mt-4 font-body font-light drop-shadow-lg">
+              December 4-6, 2025
             </p>
           </div>
 
           {/* Right Side - CTA Button */}
           <div className="flex flex-col items-center gap-6">
-            <Link
-              to="/events"
-              className="text-white text-lg sm:text-xl md:text-2xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 px-10 py-5 rounded-2xl shadow-2xl hover:shadow-purple-500/50 transition-all duration-300 hover:scale-110 border-2 border-white/20"
+            <a
+              href={import.meta.env.VITE_MAIN_SITE_URL || "#"}
+              className="text-white text-lg sm:text-xl md:text-2xl font-display font-bold bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 px-10 py-5 rounded-2xl shadow-2xl hover:shadow-purple-500/50 transition-all duration-300 hover:scale-110 border-2 border-white/20 inline-block text-center"
             >
               Register for Events
-            </Link>
-            <p className="text-white/90 text-base sm:text-lg font-semibold drop-shadow-lg">
+            </a>
+            <p className="text-white/90 text-base sm:text-lg font-body font-light drop-shadow-lg">
               Join the Celebration
             </p>
           </div>

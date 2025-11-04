@@ -110,13 +110,13 @@ const Gallery = () => {
         <div className="text-center mb-20">
           <div className="flex items-center justify-center gap-4 mb-6">
             <Camera className="text-pink-400 animate-pulse" size={48} />
-            <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black text-white drop-shadow-2xl">
+            <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-display font-black text-white drop-shadow-2xl">
               Gallery
             </h1>
             <Camera className="text-pink-400 animate-pulse" size={48} />
           </div>
-          <div className="h-1.5 w-48 bg-gradient-to-r from-pink-400 via-purple-500 to-orange-500 rounded-full mx-auto shadow-lg shadow-pink-400/50 mb-6"></div>
-          <p className="text-white text-xl sm:text-2xl md:text-3xl font-medium drop-shadow-lg">
+          <div className="h-1.5 w-48 bg-gradient-to-r from-purple-600 via-pink-500 to-purple-600 rounded-full mx-auto shadow-lg shadow-purple-500/50 mb-6"></div>
+          <p className="text-white/90 text-xl sm:text-2xl md:text-3xl font-body font-light drop-shadow-lg">
             Capturing the vibrant moments of Cieszyc
           </p>
         </div>
@@ -127,9 +127,9 @@ const Gallery = () => {
             <button
               key={category.id}
               onClick={() => setSelectedCategory(category.id)}
-              className={`px-8 py-4 rounded-full font-bold text-lg transition-all duration-300 ${
+              className={`px-8 py-4 rounded-full font-display font-bold text-lg transition-all duration-300 ${
                 selectedCategory === category.id
-                  ? 'bg-gradient-to-r from-pink-500 to-purple-500 text-white shadow-2xl shadow-pink-500/50 scale-110'
+                  ? 'bg-gradient-to-r from-purple-600 to-pink-600 text-white shadow-2xl shadow-purple-500/50 scale-110'
                   : 'bg-white/10 text-white hover:bg-white/20 backdrop-blur-sm hover:scale-105'
               }`}
             >
@@ -158,8 +158,8 @@ const Gallery = () => {
                 {/* Overlay */}
                 <div className="absolute inset-0 bg-gradient-to-t from-black/95 via-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-300">
                   <div className="absolute bottom-0 left-0 right-0 p-6">
-                    <h3 className="text-white font-black text-xl mb-2 drop-shadow-lg">{image.title}</h3>
-                    <div className="flex items-center gap-2 text-pink-300 text-sm font-semibold">
+                    <h3 className="text-white font-display font-black text-xl mb-2 drop-shadow-lg">{image.title}</h3>
+                    <div className="flex items-center gap-2 text-pink-300 text-sm font-body font-light">
                       <Calendar size={16} />
                       <span>{image.date}</span>
                     </div>
@@ -167,13 +167,13 @@ const Gallery = () => {
                   
                   {/* Zoom Icon */}
                   <div className="absolute top-4 right-4 transform translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300">
-                    <div className="bg-gradient-to-r from-pink-500 to-purple-500 p-3 rounded-full shadow-2xl">
+                    <div className="bg-gradient-to-r from-purple-600 to-pink-600 p-3 rounded-full shadow-2xl">
                       <ZoomIn className="text-white" size={24} />
                     </div>
                   </div>
                   
                   {/* Corner Accent */}
-                  <div className="absolute top-0 left-0 w-20 h-20 bg-gradient-to-br from-pink-500/30 to-transparent"></div>
+                  <div className="absolute top-0 left-0 w-20 h-20 bg-gradient-to-br from-purple-600/30 to-transparent"></div>
                 </div>
               </div>
             </div>
@@ -191,14 +191,14 @@ const Gallery = () => {
             {/* Close Button */}
             <button
               onClick={() => setSelectedImage(null)}
-              className="absolute -top-16 right-0 w-12 h-12 flex items-center justify-center bg-white/10 hover:bg-gradient-to-r hover:from-pink-500 hover:to-purple-500 rounded-full text-white transition-all duration-300 hover:scale-110"
+              className="absolute -top-16 right-0 w-12 h-12 flex items-center justify-center bg-white/10 hover:bg-gradient-to-r hover:from-purple-600 hover:to-pink-600 rounded-full text-white transition-all duration-300 hover:scale-110 font-display"
               title="Close"
             >
               <X size={28} />
             </button>
 
             {/* Image */}
-            <div className="relative rounded-3xl overflow-hidden border-4 border-white/20 shadow-2xl shadow-pink-500/50">
+            <div className="relative rounded-3xl overflow-hidden border-4 border-white/20 shadow-2xl shadow-purple-500/50">
               <img
                 src={selectedImage.url}
                 alt={selectedImage.title}
@@ -207,15 +207,15 @@ const Gallery = () => {
               
               {/* Image Info */}
               <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black via-black/80 to-transparent p-8">
-                <h2 className="text-white text-3xl md:text-4xl font-black mb-4 drop-shadow-2xl">{selectedImage.title}</h2>
+                <h2 className="text-white text-3xl md:text-4xl font-display font-black mb-4 drop-shadow-2xl">{selectedImage.title}</h2>
                 <div className="flex items-center gap-6 text-white">
                   <div className="flex items-center gap-3 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
                     <Calendar size={20} className="text-pink-400" />
-                    <span className="font-semibold">{selectedImage.date}</span>
+                    <span className="font-body font-light">{selectedImage.date}</span>
                   </div>
                   <div className="flex items-center gap-3 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
                     <Camera size={20} className="text-purple-400" />
-                    <span className="capitalize font-semibold">{selectedImage.category}</span>
+                    <span className="capitalize font-body font-light">{selectedImage.category}</span>
                   </div>
                 </div>
               </div>
@@ -228,8 +228,8 @@ const Gallery = () => {
       {filteredImages.length === 0 && (
         <div className="text-center py-32">
           <Camera size={80} className="mx-auto text-pink-400 mb-6 animate-pulse" />
-          <p className="text-white text-2xl font-bold">No images found in this category</p>
-          <p className="text-white/60 text-lg mt-2">Try selecting a different category</p>
+          <p className="text-white text-2xl font-display font-bold">No images found in this category</p>
+          <p className="text-white/60 text-lg mt-2 font-body font-light">Try selecting a different category</p>
         </div>
       )}
     </div>

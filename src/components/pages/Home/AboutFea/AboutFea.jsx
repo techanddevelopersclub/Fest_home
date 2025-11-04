@@ -14,7 +14,7 @@ const AboutFea = () => {
 
         {/* Main Heading */}
         <h2 
-          className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black mb-8 bg-gradient-to-r from-rose-400 via-pink-500 to-purple-500 bg-clip-text text-transparent drop-shadow-2xl"
+          className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-display font-black mb-8 bg-gradient-to-r from-purple-400 via-pink-500 to-purple-500 bg-clip-text text-transparent drop-shadow-2xl"
           data-aos="fade-up"
           data-aos-delay="100"
         >
@@ -23,7 +23,7 @@ const AboutFea = () => {
 
         {/* Subtitle */}
         <h3 
-          className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-10 drop-shadow-xl"
+          className="text-2xl sm:text-3xl md:text-4xl font-display font-bold text-white mb-10 drop-shadow-xl"
           data-aos="fade-up"
           data-aos-delay="200"
         >
@@ -32,7 +32,7 @@ const AboutFea = () => {
 
         {/* Description */}
         <p 
-          className="text-lg sm:text-xl md:text-2xl font-medium text-white leading-relaxed max-w-4xl mx-auto mb-8 drop-shadow-lg"
+          className="text-lg sm:text-xl md:text-2xl font-body font-light text-white/90 leading-relaxed max-w-4xl mx-auto mb-8 drop-shadow-lg"
           data-aos="fade-up"
           data-aos-delay="300"
         >
