@@ -113,7 +113,8 @@ const NavBar = () => {
               </label>
               <ul
                 tabIndex={0}
-                className="menu menu-sm dropdown-content mt-3 z-[1] p-3 shadow-lg bg-black/90 backdrop-blur-xl border border-white/10 rounded-xl w-52"
+                className="menu menu-sm dropdown-content mt-3 z-[100] p-5 shadow-lg bg-black/90 backdrop-blur-xl border border-white/10 rounded-xl w-[75vw] min-w-[280px] max-w-[320px]"
+                style={{ left: '0.5rem' }}
               >
                 {navLinks}
               </ul>
