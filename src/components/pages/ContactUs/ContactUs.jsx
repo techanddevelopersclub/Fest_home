@@ -47,7 +47,7 @@ const ContactUs = () => {
                       href="tel:+916396834004"
                       className="text-purple-300 hover:text-pink-300 transition-colors block mt-1"
                     >
-                      +91 6396834004
+                      +91 6396834004 |
                       Akshat Kestwal
                     </a>
                   </div>
@@ -67,7 +67,7 @@ const ContactUs = () => {
                       href="tel:+919548179856"
                       className="text-purple-300 hover:text-pink-300 transition-colors block mt-1"
                     >
-                      +919548179856
+                      +919548179856 |
                       Paras Sundriyal
                     </a>
                   </div>
@@ -87,7 +87,7 @@ const ContactUs = () => {
                       href="tel:+919528187139"
                       className="text-purple-300 hover:text-pink-300 transition-colors block mt-1"
                     >
-                      +91 9528187139
+                      +91 9528187139 |
                       Vaibhav Pokhriyal
                     </a>
                   </div>
