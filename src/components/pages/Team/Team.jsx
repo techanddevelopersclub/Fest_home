@@ -13,13 +13,13 @@ const Team = () => {
         role: "Festival Dean",
         image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop",
         bio: "Visionary academic leader steering Cieszyc with strategic direction, mentorship, and a culture of collaboration across teams.",
-        social: {
-          linkedin: "https://linkedin.com/in/himanshu-nautiyal",
-          twitter: "",
-          instagram: "https://instagram.com/himanshu_thdc",
-          github: "",
-          email: "dean@thdc.edu"
-        }
+        // social: {
+        //   linkedin: "",
+        //   twitter: "",
+        //   instagram: "",
+        //   github: "",
+        //   email: ""
+        // }
       },
       {
         id: 2,
@@ -27,13 +27,12 @@ const Team = () => {
         role: "Festival Coordinator",
         image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop",
         bio: "Experienced festival coordinators enabling end‑to‑end planning, streamlined operations, and on‑ground excellence across all events.",
-        social: {
-          linkedin: "https://linkedin.com/in/coordinator",
-          twitter: "",
-          instagram: "https://instagram.com/fest_coordinator",
-          github: "",
-          email: "coordinator@thdc.edu"
-        }
+        // social: {
+        //   twitter: "",
+        //   instagram: "",
+        //   github: "",
+        //   email: ""
+        // }
       },
       {
         id: 3,
@@ -41,13 +40,13 @@ const Team = () => {
         role: "Festival Co-Coordinator",
         image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&h=400&fit=crop",
         bio: "Tech‑forward co‑coordinators driving platform reliability, automation, and scalable tools for the festival experience.",
-        social: {
-          linkedin: "https://linkedin.com/in/suraj-singh",
-          twitter: "",
-          instagram: "https://instagram.com/suraj.tech",
-          github: "https://github.com/surajsingh",
-          email: "suraj@thdc.edu"
-        }
+        // social: {
+        //   linkedin: "",
+        //   twitter: "",
+        //   instagram: "",
+        //   github: "",
+        //   email: ""
+        // }
       },
       {
         id: 4,
@@ -56,11 +55,10 @@ const Team = () => {
         image: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=400&h=400&fit=crop",
         bio: "Design‑first coordinator focused on intuitive journeys, inclusive visuals, and consistent brand storytelling.",
         social: {
-          linkedin: "https://linkedin.com/in/designer",
-          twitter: "",
-          instagram: "https://instagram.com/design_thdc",
-          github: "",
-          email: "designer@thdc.edu"
+          linkedin: "https://www.linkedin.com/in/akshat-kestwal-4798a6259/",
+          // twitter: "",
+          instagram: "https://www.instagram.com/akshat_kestwal4/",
+          email: "akshatkestwal@gmail.com"
         }
       },
       {
@@ -69,13 +67,13 @@ const Team = () => {
         role: "Event Coordinator",
         image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&h=400&fit=crop",
         bio: "Event coordinator specializing in content narratives, creator partnerships, and audience engagement that converts.",
-        social: {
-          linkedin: "https://linkedin.com/in/socialmedia",
-          twitter: "https://twitter.com/thdc_social",
-          instagram: "https://instagram.com/thdc.social",
-          github: "",
-          email: "social@thdc.edu"
-        }
+        // social: {
+        //   linkedin: "https://linkedin.com/in/socialmedia",
+        //   twitter: "https://twitter.com/thdc_social",
+        //   instagram: "https://instagram.com/thdc.social",
+        //   github: "",
+        //   email: "social@thdc.edu"
+        // }
       },
       {
         id: 5,
@@ -87,8 +85,8 @@ const Team = () => {
           linkedin: "https://linkedin.com/in/socialmedia",
           twitter: "https://twitter.com/thdc_social",
           instagram: "https://instagram.com/thdc.social",
-          github: "",
-          email: "social@thdc.edu"
+          // github: "",
+          email: "sskle22ce43@thdcihet.ac.in"
         }
       }
     ],
@@ -99,13 +97,13 @@ const Team = () => {
         role: "Technical Coordinator",
         image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&h=400&fit=crop",
         bio: "Primary technical POC ensuring smooth infrastructure, timely support, and rapid incident response.",
-        social: {
-          linkedin: "https://linkedin.com/in/webdev",
-          twitter: "",
-          instagram: "https://instagram.com/webdev_thdc",
-          github: "https://github.com/webdev",
-          email: "webdev@thdc.edu"
-        }
+        // social: {
+        //   linkedin: "https://linkedin.com/in/webdev",
+        //   twitter: "",
+        //   instagram: "https://instagram.com/webdev_thdc",
+        //   github: "https://github.com/webdev",
+        //   email: "webdev@thdc.edu"
+        // }
       },
       {
         id: 7,
@@ -114,11 +112,11 @@ const Team = () => {
         image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&h=400&fit=crop",
         bio: "Technical coordinator leading outreach tooling, analytics pipelines, and performance monitoring for campaigns.",
         social: {
-          linkedin: "https://linkedin.com/in/marketing-head",
-          twitter: "https://twitter.com/marketing_thdc",
-          instagram: "https://instagram.com/marketing.thdc",
-          github: "",
-          email: "marketing@thdc.edu"
+          linkedin: "https://www.linkedin.com/in/vaibhav-pokhriyal-237b86259/",
+          // twitter: "https://twitter.com/marketing_thdc",
+          instagram: "https://www.instagram.com/vaibhav_11_3/",
+          github: "https://github.com/VaibhavPo",
+          email: "vp22cs55@thdcihet.ac.in"
         }
       }
     ],
@@ -129,13 +127,13 @@ const Team = () => {
         role: "Social Media Student Coordinator",
         image: "https://images.unsplash.com/photo-1463453091185-61582044d556?w=400&h=400&fit=crop",
         bio: "Social media coordinator crafting data‑led campaigns, timely storytelling, and community amplification.",
-        social: {
-          linkedin: "https://linkedin.com/in/graphicdesigner",
-          twitter: "",
-          instagram: "https://instagram.com/design.thdc",
-          github: "",
-          email: "design@thdc.edu"
-        }
+        // social: {
+        //   linkedin: "https://linkedin.com/in/graphicdesigner",
+        //   twitter: "",
+        //   instagram: "https://instagram.com/design.thdc",
+        //   github: "",
+        //   email: "design@thdc.edu"
+        // }
       },
       {
         id: 9,
@@ -144,11 +142,11 @@ const Team = () => {
         image: "https://images.unsplash.com/photo-1463453091185-61582044d556?w=400&h=400&fit=crop",
         bio: "Social media coordinator curating platform‑native content, trends, and interactive audience formats.",
         social: {
-          linkedin: "https://linkedin.com/in/graphicdesigner",
-          twitter: "",
-          instagram: "https://instagram.com/design.thdc",
-          github: "",
-          email: "design@thdc.edu"
+          linkedin: "https://www.linkedin.com/in/paras-sundriyal-b6270218a/",
+          // twitter: "",
+          instagram: "https://www.instagram.com/okay_paras/",
+          // github: "",
+          email: "paras.starkmarkup@gmail.com"
         }
       },],
       marketing: [
@@ -158,13 +156,13 @@ const Team = () => {
         role: "Marketing Student Coordinator",
         image: "https://images.unsplash.com/photo-1463453091185-61582044d556?w=400&h=400&fit=crop",
         bio: "Marketing coordinator focusing on partnerships, on‑ground visibility, and measurable growth.",
-        social: {
-          linkedin: "https://linkedin.com/in/graphicdesigner",
-          twitter: "",
-          instagram: "https://instagram.com/design.thdc",
-          github: "",
-          email: "design@thdc.edu"
-        }
+        // social: {
+        //   linkedin: "https://linkedin.com/in/graphicdesigner",
+        //   twitter: "",
+        //   instagram: "https://instagram.com/design.thdc",
+        //   github: "",
+        //   email: "design@thdc.edu"
+        // }
       },
       {
         id: 11,
@@ -172,13 +170,13 @@ const Team = () => {
         role: "Marketing Coordinators",
         image: "https://images.unsplash.com/photo-1463453091185-61582044d556?w=400&h=400&fit=crop",
         bio: "Marketing coordinators orchestrating multi‑channel promotions, design alignment, and sponsor communications.",
-        social: {
-          linkedin: "https://linkedin.com/in/graphicdesigner",
-          twitter: "",
-          instagram: "https://instagram.com/design.thdc",
-          github: "",
-          email: "design@thdc.edu"
-        }
+        // social: {
+        //   linkedin: "https://linkedin.com/in/graphicdesigner",
+        //   twitter: "",
+        //   instagram: "https://www.instagram.com/sharmashivain34/",
+        //   github: "",
+        //   email: "design@thdc.edu"
+        // }
       }
     ],
     techteam: [
@@ -190,10 +188,10 @@ const Team = () => {
         bio: "Bringing ideas to life through design",
         social: {
           linkedin: "https://linkedin.com/in/graphicdesigner",
-          twitter: "",
+      
           instagram: "https://instagram.com/design.thdc",
           github: "",
-          email: "design@thdc.edu"
+          
         }
       },
       {
@@ -204,10 +202,10 @@ const Team = () => {
         bio: "Bringing ideas to life through design",
         social: {
           linkedin: "https://linkedin.com/in/graphicdesigner",
-          twitter: "",
+          
           instagram: "https://instagram.com/design.thdc",
           github: "",
-          email: "design@thdc.edu"
+          
         }
       }
     ]
