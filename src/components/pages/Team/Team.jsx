@@ -53,7 +53,7 @@ const Team = () => {
         name: "Akshat Kestwal",
         role: "StudentCoordinator",
         image: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=400&h=400&fit=crop",
-        bio: "Design‑first coordinator focused on intuitive journeys, inclusive visuals, and consistent brand storytelling.",
+        // bio: "Design‑first coordinator focused on intuitive journeys, inclusive visuals, and consistent brand storytelling.",
         social: {
           linkedin: "https://www.linkedin.com/in/akshat-kestwal-4798a6259/",
           // twitter: "",
@@ -80,7 +80,7 @@ const Team = () => {
         name: "Shreya Kukreti",
         role: "Event Student Coordinator",
         image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&h=400&fit=crop",
-        bio: "Event coordinator specializing in content narratives, creator partnerships, and audience engagement that converts.",
+        // bio: "Event coordinator specializing in content narratives, creator partnerships, and audience engagement that converts.",
         social: {
           linkedin: "https://linkedin.com/in/socialmedia",
           twitter: "https://twitter.com/thdc_social",
@@ -109,8 +109,8 @@ const Team = () => {
         id: 8,
         name: "Vaibhav Pokhriyal",
         role: "Technical Student Coordinator",
-        image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&h=400&fit=crop",
-        bio: "Technical coordinator leading outreach tooling, analytics pipelines, and performance monitoring for campaigns.",
+        image: "https://res.cloudinary.com/duyzpk8ym/image/upload/v1762358486/WhatsApp_Image_2025-09-07_at_00.07.56_de79fd97-removebg-preview_nfpxqj.png",
+        // bio: "Technical coordinator leading outreach tooling, analytics pipelines, and performance monitoring for campaigns.",
         social: {
           linkedin: "https://www.linkedin.com/in/vaibhav-pokhriyal-237b86259/",
           // twitter: "https://twitter.com/marketing_thdc",
@@ -140,7 +140,7 @@ const Team = () => {
         name: "Paras Sundriyal",
         role: "Social Media StudentCoordinator",
         image: "https://images.unsplash.com/photo-1463453091185-61582044d556?w=400&h=400&fit=crop",
-        bio: "Social media coordinator curating platform‑native content, trends, and interactive audience formats.",
+        // bio: "Social media coordinator curating platform‑native content, trends, and interactive audience formats.",
         social: {
           linkedin: "https://www.linkedin.com/in/paras-sundriyal-b6270218a/",
           // twitter: "",
@@ -169,7 +169,7 @@ const Team = () => {
         name: "Shivain Sharma & Ayushree Vyas",
         role: "Marketing Student Coordinators",
         image: "https://images.unsplash.com/photo-1463453091185-61582044d556?w=400&h=400&fit=crop",
-        bio: "Marketing coordinators orchestrating multi‑channel promotions, design alignment, and sponsor communications.",
+        // bio: "Marketing coordinators orchestrating multi‑channel promotions, design alignment, and sponsor communications.",
         // social: {
         //   linkedin: "https://linkedin.com/in/graphicdesigner",
         //   twitter: "",
