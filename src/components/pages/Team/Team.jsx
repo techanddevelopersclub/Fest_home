@@ -124,7 +124,7 @@ const Team = () => {
       {
         id: 9,
         name: "Mr. Neeraj Bisht",
-        role: "Social Media Student Coordinator",
+        role: "Social Media Coordinator",
         image: "https://images.unsplash.com/photo-1463453091185-61582044d556?w=400&h=400&fit=crop",
         bio: "Social media coordinator crafting data‑led campaigns, timely storytelling, and community amplification.",
         // social: {
@@ -138,7 +138,7 @@ const Team = () => {
       {
         id: 10,
         name: "Paras Sundriyal",
-        role: "Social Media Coordinator",
+        role: "Social Media StudentCoordinator",
         image: "https://images.unsplash.com/photo-1463453091185-61582044d556?w=400&h=400&fit=crop",
         bio: "Social media coordinator curating platform‑native content, trends, and interactive audience formats.",
         social: {
@@ -153,7 +153,7 @@ const Team = () => {
       {
         id: 11,
         name: "Mr. Satendra Pathak",
-        role: "Marketing Student Coordinator",
+        role: "Marketing Coordinator",
         image: "https://images.unsplash.com/photo-1463453091185-61582044d556?w=400&h=400&fit=crop",
         bio: "Marketing coordinator focusing on partnerships, on‑ground visibility, and measurable growth.",
         // social: {
@@ -167,7 +167,7 @@ const Team = () => {
       {
         id: 12,
         name: "Shivain Sharma & Ayushree Vyas",
-        role: "Marketing Coordinators",
+        role: "Marketing Student Coordinators",
         image: "https://images.unsplash.com/photo-1463453091185-61582044d556?w=400&h=400&fit=crop",
         bio: "Marketing coordinators orchestrating multi‑channel promotions, design alignment, and sponsor communications.",
         // social: {
@@ -185,7 +185,7 @@ const Team = () => {
         name: "",
         role: "Social Media Coordinator",
         image: "https://images.unsplash.com/photo-1463453091185-61582044d556?w=400&h=400&fit=crop",
-        bio: "Bringing ideas to life through design",
+       
         social: {
           linkedin: "https://linkedin.com/in/graphicdesigner",
       
@@ -199,7 +199,7 @@ const Team = () => {
         name: "",
         role: "Social Media Coordinator",
         image: "https://images.unsplash.com/photo-1463453091185-61582044d556?w=400&h=400&fit=crop",
-        bio: "Bringing ideas to life through design",
+       
         social: {
           linkedin: "https://linkedin.com/in/graphicdesigner",
           
