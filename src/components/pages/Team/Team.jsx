@@ -23,8 +23,8 @@ const Team = () => {
       },
       {
         id: 2,
-        name: "Festival Coordinator",
-        role: "Event Coordinator",
+        name: "Dr.Ramna Tripathi & Mr. Mandeep Guleria",
+        role: "Festival Coordinator",
         image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop",
         bio: "Orchestrating seamless event execution",
         social: {
@@ -34,13 +34,11 @@ const Team = () => {
           github: "",
           email: "coordinator@thdc.edu"
         }
-      }
-    ],
-    technical: [
+      },
       {
         id: 3,
-        name: "Suraj Singh",
-        role: "Technical Lead",
+        name: "Mr. Sameer Verma & Mr. Mahesh Aghwaria",
+        role: "Festival Co-Coordinator",
         image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&h=400&fit=crop",
         bio: "Leading technical innovations for the festival",
         social: {
@@ -53,22 +51,8 @@ const Team = () => {
       },
       {
         id: 4,
-        name: "Web Developer",
-        role: "Full Stack Developer",
-        image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&h=400&fit=crop",
-        bio: "Building the digital experience",
-        social: {
-          linkedin: "https://linkedin.com/in/webdev",
-          twitter: "",
-          instagram: "https://instagram.com/webdev_thdc",
-          github: "https://github.com/webdev",
-          email: "webdev@thdc.edu"
-        }
-      },
-      {
-        id: 5,
-        name: "UI/UX Designer",
-        role: "Design Lead",
+        name: "Akshat Kestwal",
+        role: "Coordinator",
         image: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=400&h=400&fit=crop",
         bio: "Crafting beautiful user experiences",
         social: {
@@ -78,27 +62,11 @@ const Team = () => {
           github: "",
           email: "designer@thdc.edu"
         }
-      }
-    ],
-    marketing: [
-      {
-        id: 6,
-        name: "Marketing Head",
-        role: "Marketing Director",
-        image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&h=400&fit=crop",
-        bio: "Driving brand awareness and engagement",
-        social: {
-          linkedin: "https://linkedin.com/in/marketing-head",
-          twitter: "https://twitter.com/marketing_thdc",
-          instagram: "https://instagram.com/marketing.thdc",
-          github: "",
-          email: "marketing@thdc.edu"
-        }
       },
       {
-        id: 7,
-        name: "Social Media Manager",
-        role: "Content Strategist",
+        id: 5,
+        name: "Shreya Kukreti",
+        role: "Event Coordinator",
         image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&h=400&fit=crop",
         bio: "Creating viral content and campaigns",
         social: {
@@ -108,11 +76,85 @@ const Team = () => {
           github: "",
           email: "social@thdc.edu"
         }
+      }
+    ],
+    technical: [
+      {
+        id: 6,
+        name: "Mr. Pallav Aswal",
+        role: "Technical Coordinator",
+        image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&h=400&fit=crop",
+        bio: "For general queries or assistance.",
+        social: {
+          linkedin: "https://linkedin.com/in/webdev",
+          twitter: "",
+          instagram: "https://instagram.com/webdev_thdc",
+          github: "https://github.com/webdev",
+          email: "webdev@thdc.edu"
+        }
       },
       {
+        id: 7,
+        name: "Vaibhav Pokhriyal",
+        role: "Technical Coordinator",
+        image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&h=400&fit=crop",
+        bio: "Driving brand awareness and engagement",
+        social: {
+          linkedin: "https://linkedin.com/in/marketing-head",
+          twitter: "https://twitter.com/marketing_thdc",
+          instagram: "https://instagram.com/marketing.thdc",
+          github: "",
+          email: "marketing@thdc.edu"
+        }
+      }
+    ],
+    marketing: [
+      {
         id: 8,
-        name: "Graphic Designer",
-        role: "Visual Designer",
+        name: "Mr. Neeraj Bisht",
+        role: "Social Media Coordinator",
+        image: "https://images.unsplash.com/photo-1463453091185-61582044d556?w=400&h=400&fit=crop",
+        bio: "Bringing ideas to life through design",
+        social: {
+          linkedin: "https://linkedin.com/in/graphicdesigner",
+          twitter: "",
+          instagram: "https://instagram.com/design.thdc",
+          github: "",
+          email: "design@thdc.edu"
+        }
+      },
+      {
+        id: 9,
+        name: "Paras Sundriyal",
+        role: "Social Media Coordinator",
+        image: "https://images.unsplash.com/photo-1463453091185-61582044d556?w=400&h=400&fit=crop",
+        bio: "Bringing ideas to life through design",
+        social: {
+          linkedin: "https://linkedin.com/in/graphicdesigner",
+          twitter: "",
+          instagram: "https://instagram.com/design.thdc",
+          github: "",
+          email: "design@thdc.edu"
+        }
+      },
+      {
+        id: 10,
+        name: "Mr. Satendra Pathak",
+        role: "Marketing Coordinator",
+        image: "https://images.unsplash.com/photo-1463453091185-61582044d556?w=400&h=400&fit=crop",
+        bio: "Bringing ideas to life through design",
+        social: {
+          linkedin: "https://linkedin.com/in/graphicdesigner",
+          twitter: "",
+          instagram: "https://instagram.com/design.thdc",
+          github: "",
+          email: "design@thdc.edu"
+        }
+      },
+      {
+        id: 11,
+        name: "Shivain Sharma & Ayushree Vyas",
+        role: "Marketing Coordinators",
         image: "https://images.unsplash.com/photo-1463453091185-61582044d556?w=400&h=400&fit=crop",
         bio: "Bringing ideas to life through design",
         social: {
