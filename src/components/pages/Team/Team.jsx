@@ -52,7 +52,7 @@ const Team = () => {
       {
         id: 4,
         name: "Akshat Kestwal",
-        role: "Coordinator",
+        role: "StudentCoordinator",
         image: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=400&h=400&fit=crop",
         bio: "Design‑first coordinator focused on intuitive journeys, inclusive visuals, and consistent brand storytelling.",
         social: {
@@ -65,8 +65,22 @@ const Team = () => {
       },
       {
         id: 5,
-        name: "Shreya Kukreti",
+        name: "Mr. Rajwardhan Arya",
         role: "Event Coordinator",
+        image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&h=400&fit=crop",
+        bio: "Event coordinator specializing in content narratives, creator partnerships, and audience engagement that converts.",
+        social: {
+          linkedin: "https://linkedin.com/in/socialmedia",
+          twitter: "https://twitter.com/thdc_social",
+          instagram: "https://instagram.com/thdc.social",
+          github: "",
+          email: "social@thdc.edu"
+        }
+      },
+      {
+        id: 5,
+        name: "Shreya Kukreti",
+        role: "Event Student Coordinator",
         image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&h=400&fit=crop",
         bio: "Event coordinator specializing in content narratives, creator partnerships, and audience engagement that converts.",
         social: {
@@ -96,7 +110,7 @@ const Team = () => {
       {
         id: 7,
         name: "Vaibhav Pokhriyal",
-        role: "Technical Coordinator",
+        role: "Technical Student Coordinator",
         image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&h=400&fit=crop",
         bio: "Technical coordinator leading outreach tooling, analytics pipelines, and performance monitoring for campaigns.",
         social: {
@@ -112,7 +126,7 @@ const Team = () => {
       {
         id: 8,
         name: "Mr. Neeraj Bisht",
-        role: "Social Media Coordinator",
+        role: "Social Media Student Coordinator",
         image: "https://images.unsplash.com/photo-1463453091185-61582044d556?w=400&h=400&fit=crop",
         bio: "Social media coordinator crafting data‑led campaigns, timely storytelling, and community amplification.",
         social: {
@@ -141,7 +155,7 @@ const Team = () => {
       {
         id: 10,
         name: "Mr. Satendra Pathak",
-        role: "Marketing Coordinator",
+        role: "Marketing Student Coordinator",
         image: "https://images.unsplash.com/photo-1463453091185-61582044d556?w=400&h=400&fit=crop",
         bio: "Marketing coordinator focusing on partnerships, on‑ground visibility, and measurable growth.",
         social: {
