@@ -23,30 +23,31 @@ const Team = () => {
       },
       {
         id: 2,
-        name: "Dr.Ramna Tripathi & Mr. Mandeep Guleria",
+        name: "Dr. Ramna Tripathi",
         role: "Festival Coordinator",
-        image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop",
-        // bio: "Experienced festival coordinators enabling end‑to‑end planning, streamlined operations, and on‑ground excellence across all events.",
-        // social: {
-        //   twitter: "",
-        //   instagram: "",
-        //   github: "",
-        //   email: ""
-        // }
+        image: "",
+        // bio: "",
       },
       {
         id: 3,
-        name: "Mr. Sameer Verma & Mr. Mahesh Aghwaria",
+        name: "Mr. Mandeep Guleria",
+        role: "Festival Coordinator",
+        image: "",
+        // bio: "",
+      },
+      {
+        id: 15,
+        name: "Mr. Sameer Verma",
         role: "Festival Co-Coordinator",
-        image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&h=400&fit=crop",
-        // bio: "Tech‑forward co‑coordinators driving platform reliability, automation, and scalable tools for the festival experience.",
-        // social: {
-        //   linkedin: "",
-        //   twitter: "",
-        //   instagram: "",
-        //   github: "",
-        //   email: ""
-        // }
+        image: "",
+        // bio: "",
+      },
+      {
+        id: 16,
+        name: "Mr. Mahesh Aghwaria",
+        role: "Festival Co-Coordinator",
+        image: "",
+        // bio: "",
       },
       {
         id: 4,
@@ -83,8 +84,8 @@ const Team = () => {
         // bio: "Event coordinator specializing in content narratives, creator partnerships, and audience engagement that converts.",
         social: {
           linkedin: "https://linkedin.com/in/socialmedia",
-          twitter: "https://twitter.com/thdc_social",
-          instagram: "https://instagram.com/thdc.social",
+          // twitter: "https://twitter.com/thdc_social",
+          // instagram: "https://instagram.com/thdc.social",
           // github: "",
           email: "sskle22ce43@thdcihet.ac.in"
         }
@@ -166,17 +167,17 @@ const Team = () => {
       },
       {
         id: 12,
-        name: "Shivain Sharma & Ayushree Vyas",
-        role: "Marketing Student Coordinators",
-        image: "https://images.unsplash.com/photo-1463453091185-61582044d556?w=400&h=400&fit=crop",
-        // bio: "Marketing coordinators orchestrating multi‑channel promotions, design alignment, and sponsor communications.",
-        // social: {
-        //   linkedin: "https://linkedin.com/in/graphicdesigner",
-        //   twitter: "",
-        //   instagram: "https://www.instagram.com/sharmashivain34/",
-        //   github: "",
-        //   email: "design@thdc.edu"
-        // }
+        name: "Shivain Sharma",
+        role: "Marketing Student Coordinator",
+        image: "",
+        // bio: "",
+      },
+      {
+        id: 18,
+        name: "Ayushree Vyas",
+        role: "Marketing Student Coordinator",
+        image: "",
+        // bio: "",
       }
     ],
     techteam: [
