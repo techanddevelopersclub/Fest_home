@@ -76,7 +76,7 @@ const Team = () => {
         // }
       },
       {
-        id: 5,
+        id: 6,
         name: "Shreya Kukreti",
         role: "Event Student Coordinator",
         image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&h=400&fit=crop",
@@ -92,7 +92,7 @@ const Team = () => {
     ],
     technical: [
       {
-        id: 6,
+        id: 7,
         name: "Mr. Pallav Aswal",
         role: "Technical Coordinator",
         image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&h=400&fit=crop",
@@ -106,7 +106,7 @@ const Team = () => {
         // }
       },
       {
-        id: 7,
+        id: 8,
         name: "Vaibhav Pokhriyal",
         role: "Technical Student Coordinator",
         image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&h=400&fit=crop",
@@ -122,7 +122,7 @@ const Team = () => {
     ],
     socialmedia: [
       {
-        id: 8,
+        id: 9,
         name: "Mr. Neeraj Bisht",
         role: "Social Media Student Coordinator",
         image: "https://images.unsplash.com/photo-1463453091185-61582044d556?w=400&h=400&fit=crop",
@@ -136,7 +136,7 @@ const Team = () => {
         // }
       },
       {
-        id: 9,
+        id: 10,
         name: "Paras Sundriyal",
         role: "Social Media Coordinator",
         image: "https://images.unsplash.com/photo-1463453091185-61582044d556?w=400&h=400&fit=crop",
@@ -151,7 +151,7 @@ const Team = () => {
       },],
       marketing: [
       {
-        id: 10,
+        id: 11,
         name: "Mr. Satendra Pathak",
         role: "Marketing Student Coordinator",
         image: "https://images.unsplash.com/photo-1463453091185-61582044d556?w=400&h=400&fit=crop",
@@ -165,7 +165,7 @@ const Team = () => {
         // }
       },
       {
-        id: 11,
+        id: 12,
         name: "Shivain Sharma & Ayushree Vyas",
         role: "Marketing Coordinators",
         image: "https://images.unsplash.com/photo-1463453091185-61582044d556?w=400&h=400&fit=crop",
@@ -181,7 +181,7 @@ const Team = () => {
     ],
     techteam: [
       {
-        id: 12,
+        id: 13,
         name: "",
         role: "Social Media Coordinator",
         image: "https://images.unsplash.com/photo-1463453091185-61582044d556?w=400&h=400&fit=crop",
@@ -195,7 +195,7 @@ const Team = () => {
         }
       },
       {
-        id: 13,
+        id: 14,
         name: "",
         role: "Social Media Coordinator",
         image: "https://images.unsplash.com/photo-1463453091185-61582044d556?w=400&h=400&fit=crop",
@@ -213,6 +213,7 @@ const Team = () => {
 
   const categories = [
     { id: 'all', name: 'All' },
+    { id: 'team', name: 'Team' },
     { id: 'leadership', name: 'Leadership' },
     { id: 'technical', name: 'Technical' },
     { id: 'marketing', name: 'Marketing' },
@@ -293,9 +294,10 @@ const Team = () => {
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                 />
                 
-                {/* Social Media Icons - Vertical Stack on Left Side */}
+                {/* Social Media Icons - Vertical Stack on Left Side */
+                }
                 <div className="absolute left-4 top-1/2 -translate-y-1/2 flex flex-col gap-3 opacity-0 group-hover:opacity-100 transition-all duration-300 transform -translate-x-4 group-hover:translate-x-0">
-                  {member.social.linkedin && (
+                  {member.social?.linkedin && (
                     <a 
                       href={member.social.linkedin} 
                       target="_blank" 
@@ -307,7 +309,7 @@ const Team = () => {
                     </a>
                   )}
                   
-                  {member.social.instagram && (
+                  {member.social?.instagram && (
                     <a 
                       href={member.social.instagram} 
                       target="_blank" 
@@ -319,7 +321,7 @@ const Team = () => {
                     </a>
                   )}
                   
-                  {member.social.email && (
+                  {member.social?.email && (
                     <a 
                       href={`mailto:${member.social.email}`}
                       className="w-12 h-12 flex items-center justify-center bg-white/95 hover:bg-rose-600 rounded-lg shadow-2xl transition-all duration-300 hover:scale-110 backdrop-blur-sm group/icon"
@@ -329,7 +331,7 @@ const Team = () => {
                     </a>
                   )}
                   
-                  {member.social.twitter && (
+                  {member.social?.twitter && (
                     <a 
                       href={member.social.twitter} 
                       target="_blank" 
@@ -341,7 +343,7 @@ const Team = () => {
                     </a>
                   )}
                   
-                  {member.social.github && (
+                  {member.social?.github && (
                     <a 
                       href={member.social.github} 
                       target="_blank" 
@@ -358,35 +360,38 @@ const Team = () => {
               {/* Info */}
               <div className="p-6">
                 <h3 className="text-white text-xl font-bold mb-2">{member.name}</h3>
-                <p className="text-purple-300 text-sm font-semibold uppercase tracking-wider mb-4">{member.role}</p>
+                <p className="text-purple-300 text-sm font-semibold uppercase tracking-wider mb-2">{member.role}</p>
+                {member.bio && (
+                  <p className="text-white/80 text-sm mb-4">{member.bio}</p>
+                )}
 
                 {/* Social Links */}
                 <div className="flex gap-3 justify-center pt-4 border-t border-white/10">
-                  {member.social.linkedin && (
+                  {member.social?.linkedin && (
                     <a href={member.social.linkedin} target="_blank" rel="noopener noreferrer" 
                        className="text-white/60 hover:text-blue-400 transition-colors">
                       <Linkedin size={20} />
                     </a>
                   )}
-                  {member.social.twitter && (
+                  {member.social?.twitter && (
                     <a href={member.social.twitter} target="_blank" rel="noopener noreferrer"
                        className="text-white/60 hover:text-sky-400 transition-colors">
                       <Twitter size={20} />
                     </a>
                   )}
-                  {member.social.instagram && (
+                  {member.social?.instagram && (
                     <a href={member.social.instagram} target="_blank" rel="noopener noreferrer"
                        className="text-white/60 hover:text-pink-400 transition-colors">
                       <Instagram size={20} />
                     </a>
                   )}
-                  {member.social.github && (
+                  {member.social?.github && (
                     <a href={member.social.github} target="_blank" rel="noopener noreferrer"
                        className="text-white/60 hover:text-purple-400 transition-colors">
                       <Github size={20} />
                     </a>
                   )}
-                  {member.social.email && (
+                  {member.social?.email && (
                     <a href={`mailto:${member.social.email}`}
                        className="text-white/60 hover:text-rose-400 transition-colors">
                       <Mail size={20} />
