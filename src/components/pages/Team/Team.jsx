@@ -51,7 +51,7 @@ const Team = () => {
       {
         id: 4,
         name: "Akshat Kestwal",
-        role: "StudentCoordinator",
+        role: "Festival Student Coordinator",
         image: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=400&h=400&fit=crop",
         // bio: "Design‑first coordinator focused on intuitive journeys, inclusive visuals, and consistent brand storytelling.",
         social: {
@@ -213,7 +213,7 @@ const Team = () => {
 
   const categories = [
     { id: 'all', name: 'All' },
-    { id: 'team', name: 'Team' },
+    // { id: 'team', name: 'Team' },
     { id: 'leadership', name: 'Leadership' },
     { id: 'technical', name: 'Technical' },
     { id: 'marketing', name: 'Marketing' },
