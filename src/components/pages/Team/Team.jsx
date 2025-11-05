@@ -215,7 +215,6 @@ const Team = () => {
 
   const categories = [
     { id: 'all', name: 'All' },
-   
     { id: 'leadership', name: 'Leadership' },
     { id: 'technical', name: 'Technical' },
     { id: 'marketing', name: 'Marketing' },
