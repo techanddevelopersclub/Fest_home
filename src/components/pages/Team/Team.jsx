@@ -11,7 +11,7 @@ const Team = () => {
         id: 1,
         name: "Mr. Himanshu Nautiyal",
         role: "Festival Dean",
-        image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop",
+        image: "../../assets/video/dean.jpg",
         // bio: "Visionary academic leader steering Cieszyc with strategic direction, mentorship, and a culture of collaboration across teams.",
         // social: {
         //   linkedin: "",
@@ -80,12 +80,12 @@ const Team = () => {
         id: 6,
         name: "Shreya Kukreti",
         role: "Event Student Coordinator",
-        image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&h=400&fit=crop",
+        image: "https://res.cloudinary.com/duyzpk8ym/image/upload/v1762379150/20250908_132007_-_shreya_kukreti_uuufbg.jpg",
         // bio: "Event coordinator specializing in content narratives, creator partnerships, and audience engagement that converts.",
         social: {
-          linkedin: "https://linkedin.com/in/socialmedia",
+          // linkedin: "https://linkedin.com/in/socialmedia",
           // twitter: "https://twitter.com/thdc_social",
-          // instagram: "https://instagram.com/thdc.social",
+          instagram: "https://www.instagram.com/_shee_yaah?igsh=MXRpeGhyaDBvcjA1Nw==",
           // github: "",
           email: "sskle22ce43@thdcihet.ac.in"
         }
@@ -140,7 +140,7 @@ const Team = () => {
         id: 10,
         name: "Paras Sundriyal",
         role: "Social Media StudentCoordinator",
-        image: "https://images.unsplash.com/photo-1463453091185-61582044d556?w=400&h=400&fit=crop",
+        image: "https://res.cloudinary.com/duyzpk8ym/image/upload/v1762379150/IMG-20250510-WA0214_-_Paras_Sundriyal_r2xnxi.jpg",
         // bio: "Social media coordinator curating platform‑native content, trends, and interactive audience formats.",
         social: {
           linkedin: "https://www.linkedin.com/in/paras-sundriyal-b6270218a/",
@@ -178,37 +178,31 @@ const Team = () => {
         role: "Marketing Student Coordinator",
         image: "",
         // bio: "",
+        social: {
+          linkedin: "https://www.linkedin.com/in/ayushree-vyas?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
+      
+          instagram: "https://www.instagram.com/ayushree_vyas?igsh=N3E3ZXB1dXljcWM%3D&utm_source=qr",
+         
+          
+        }
       }
     ],
     techteam: [
       {
-        id: 13,
+        id: 14,
         name: "",
-        role: "Social Media Coordinator",
-        image: "https://images.unsplash.com/photo-1463453091185-61582044d556?w=400&h=400&fit=crop",
+        role: "",
+        image: "",
        
         social: {
-          linkedin: "https://linkedin.com/in/graphicdesigner",
-      
-          instagram: "https://instagram.com/design.thdc",
+          linkedin: "",      
+          instagram: "",
           github: "",
           
         }
       },
-      {
-        id: 14,
-        name: "",
-        role: "Social Media Coordinator",
-        image: "https://images.unsplash.com/photo-1463453091185-61582044d556?w=400&h=400&fit=crop",
-       
-        social: {
-          linkedin: "https://linkedin.com/in/graphicdesigner",
-          
-          instagram: "https://instagram.com/design.thdc",
-          github: "",
-          
-        }
-      }
+     
+
     ]
   };
 
