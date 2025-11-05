@@ -12,7 +12,7 @@ const Team = () => {
         name: "Mr. Himanshu Nautiyal",
         role: "Festival Dean",
         image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop",
-        bio: "Visionary academic leader steering Cieszyc with strategic direction, mentorship, and a culture of collaboration across teams.",
+        // bio: "Visionary academic leader steering Cieszyc with strategic direction, mentorship, and a culture of collaboration across teams.",
         // social: {
         //   linkedin: "",
         //   twitter: "",
@@ -26,7 +26,7 @@ const Team = () => {
         name: "Dr.Ramna Tripathi & Mr. Mandeep Guleria",
         role: "Festival Coordinator",
         image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop",
-        bio: "Experienced festival coordinators enabling end‑to‑end planning, streamlined operations, and on‑ground excellence across all events.",
+        // bio: "Experienced festival coordinators enabling end‑to‑end planning, streamlined operations, and on‑ground excellence across all events.",
         // social: {
         //   twitter: "",
         //   instagram: "",
@@ -39,7 +39,7 @@ const Team = () => {
         name: "Mr. Sameer Verma & Mr. Mahesh Aghwaria",
         role: "Festival Co-Coordinator",
         image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&h=400&fit=crop",
-        bio: "Tech‑forward co‑coordinators driving platform reliability, automation, and scalable tools for the festival experience.",
+        // bio: "Tech‑forward co‑coordinators driving platform reliability, automation, and scalable tools for the festival experience.",
         // social: {
         //   linkedin: "",
         //   twitter: "",
@@ -66,7 +66,7 @@ const Team = () => {
         name: "Mr. Rajwardhan Arya",
         role: "Event Coordinator",
         image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&h=400&fit=crop",
-        bio: "Event coordinator specializing in content narratives, creator partnerships, and audience engagement that converts.",
+        // bio: "Event coordinator specializing in content narratives, creator partnerships, and audience engagement that converts.",
         // social: {
         //   linkedin: "https://linkedin.com/in/socialmedia",
         //   twitter: "https://twitter.com/thdc_social",
@@ -96,7 +96,7 @@ const Team = () => {
         name: "Mr. Pallav Aswal",
         role: "Technical Coordinator",
         image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&h=400&fit=crop",
-        bio: "Primary technical POC ensuring smooth infrastructure, timely support, and rapid incident response.",
+        // bio: "Primary technical POC ensuring smooth infrastructure, timely support, and rapid incident response.",
         // social: {
         //   linkedin: "https://linkedin.com/in/webdev",
         //   twitter: "",
@@ -126,7 +126,7 @@ const Team = () => {
         name: "Mr. Neeraj Bisht",
         role: "Social Media Coordinator",
         image: "https://images.unsplash.com/photo-1463453091185-61582044d556?w=400&h=400&fit=crop",
-        bio: "Social media coordinator crafting data‑led campaigns, timely storytelling, and community amplification.",
+        // bio: "Social media coordinator crafting data‑led campaigns, timely storytelling, and community amplification.",
         // social: {
         //   linkedin: "https://linkedin.com/in/graphicdesigner",
         //   twitter: "",
@@ -155,7 +155,7 @@ const Team = () => {
         name: "Mr. Satendra Pathak",
         role: "Marketing Coordinator",
         image: "https://images.unsplash.com/photo-1463453091185-61582044d556?w=400&h=400&fit=crop",
-        bio: "Marketing coordinator focusing on partnerships, on‑ground visibility, and measurable growth.",
+        // bio: "Marketing coordinator focusing on partnerships, on‑ground visibility, and measurable growth.",
         // social: {
         //   linkedin: "https://linkedin.com/in/graphicdesigner",
         //   twitter: "",
