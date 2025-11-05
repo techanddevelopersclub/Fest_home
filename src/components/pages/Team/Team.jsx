@@ -12,7 +12,7 @@ const Team = () => {
         name: "Mr. Himanshu Nautiyal",
         role: "Festival Dean",
         image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop",
-        bio: "Visionary leader guiding the festival to new heights",
+        bio: "Visionary academic leader steering Cieszyc with strategic direction, mentorship, and a culture of collaboration across teams.",
         social: {
           linkedin: "https://linkedin.com/in/himanshu-nautiyal",
           twitter: "",
@@ -26,7 +26,7 @@ const Team = () => {
         name: "Dr.Ramna Tripathi & Mr. Mandeep Guleria",
         role: "Festival Coordinator",
         image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop",
-        bio: "Orchestrating seamless event execution",
+        bio: "Experienced festival coordinators enabling end‑to‑end planning, streamlined operations, and on‑ground excellence across all events.",
         social: {
           linkedin: "https://linkedin.com/in/coordinator",
           twitter: "",
@@ -40,7 +40,7 @@ const Team = () => {
         name: "Mr. Sameer Verma & Mr. Mahesh Aghwaria",
         role: "Festival Co-Coordinator",
         image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&h=400&fit=crop",
-        bio: "Leading technical innovations for the festival",
+        bio: "Tech‑forward co‑coordinators driving platform reliability, automation, and scalable tools for the festival experience.",
         social: {
           linkedin: "https://linkedin.com/in/suraj-singh",
           twitter: "",
@@ -54,7 +54,7 @@ const Team = () => {
         name: "Akshat Kestwal",
         role: "Coordinator",
         image: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=400&h=400&fit=crop",
-        bio: "Crafting beautiful user experiences",
+        bio: "Design‑first coordinator focused on intuitive journeys, inclusive visuals, and consistent brand storytelling.",
         social: {
           linkedin: "https://linkedin.com/in/designer",
           twitter: "",
@@ -68,7 +68,7 @@ const Team = () => {
         name: "Shreya Kukreti",
         role: "Event Coordinator",
         image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&h=400&fit=crop",
-        bio: "Creating viral content and campaigns",
+        bio: "Event coordinator specializing in content narratives, creator partnerships, and audience engagement that converts.",
         social: {
           linkedin: "https://linkedin.com/in/socialmedia",
           twitter: "https://twitter.com/thdc_social",
@@ -84,7 +84,7 @@ const Team = () => {
         name: "Mr. Pallav Aswal",
         role: "Technical Coordinator",
         image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&h=400&fit=crop",
-        bio: "For general queries or assistance.",
+        bio: "Primary technical POC ensuring smooth infrastructure, timely support, and rapid incident response.",
         social: {
           linkedin: "https://linkedin.com/in/webdev",
           twitter: "",
@@ -98,7 +98,7 @@ const Team = () => {
         name: "Vaibhav Pokhriyal",
         role: "Technical Coordinator",
         image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&h=400&fit=crop",
-        bio: "Driving brand awareness and engagement",
+        bio: "Technical coordinator leading outreach tooling, analytics pipelines, and performance monitoring for campaigns.",
         social: {
           linkedin: "https://linkedin.com/in/marketing-head",
           twitter: "https://twitter.com/marketing_thdc",
@@ -108,13 +108,13 @@ const Team = () => {
         }
       }
     ],
-    marketing: [
+    socialmedia: [
       {
         id: 8,
         name: "Mr. Neeraj Bisht",
         role: "Social Media Coordinator",
         image: "https://images.unsplash.com/photo-1463453091185-61582044d556?w=400&h=400&fit=crop",
-        bio: "Bringing ideas to life through design",
+        bio: "Social media coordinator crafting data‑led campaigns, timely storytelling, and community amplification.",
         social: {
           linkedin: "https://linkedin.com/in/graphicdesigner",
           twitter: "",
@@ -128,7 +128,7 @@ const Team = () => {
         name: "Paras Sundriyal",
         role: "Social Media Coordinator",
         image: "https://images.unsplash.com/photo-1463453091185-61582044d556?w=400&h=400&fit=crop",
-        bio: "Bringing ideas to life through design",
+        bio: "Social media coordinator curating platform‑native content, trends, and interactive audience formats.",
         social: {
           linkedin: "https://linkedin.com/in/graphicdesigner",
           twitter: "",
@@ -136,13 +136,14 @@ const Team = () => {
           github: "",
           email: "design@thdc.edu"
         }
-      },
+      },],
+      marketing: [
       {
         id: 10,
         name: "Mr. Satendra Pathak",
         role: "Marketing Coordinator",
         image: "https://images.unsplash.com/photo-1463453091185-61582044d556?w=400&h=400&fit=crop",
-        bio: "Bringing ideas to life through design",
+        bio: "Marketing coordinator focusing on partnerships, on‑ground visibility, and measurable growth.",
         social: {
           linkedin: "https://linkedin.com/in/graphicdesigner",
           twitter: "",
@@ -155,6 +156,36 @@ const Team = () => {
         id: 11,
         name: "Shivain Sharma & Ayushree Vyas",
         role: "Marketing Coordinators",
+        image: "https://images.unsplash.com/photo-1463453091185-61582044d556?w=400&h=400&fit=crop",
+        bio: "Marketing coordinators orchestrating multi‑channel promotions, design alignment, and sponsor communications.",
+        social: {
+          linkedin: "https://linkedin.com/in/graphicdesigner",
+          twitter: "",
+          instagram: "https://instagram.com/design.thdc",
+          github: "",
+          email: "design@thdc.edu"
+        }
+      }
+    ],
+    techteam: [
+      {
+        id: 12,
+        name: "",
+        role: "Social Media Coordinator",
+        image: "https://images.unsplash.com/photo-1463453091185-61582044d556?w=400&h=400&fit=crop",
+        bio: "Bringing ideas to life through design",
+        social: {
+          linkedin: "https://linkedin.com/in/graphicdesigner",
+          twitter: "",
+          instagram: "https://instagram.com/design.thdc",
+          github: "",
+          email: "design@thdc.edu"
+        }
+      },
+      {
+        id: 13,
+        name: "",
+        role: "Social Media Coordinator",
         image: "https://images.unsplash.com/photo-1463453091185-61582044d556?w=400&h=400&fit=crop",
         bio: "Bringing ideas to life through design",
         social: {
@@ -169,15 +200,30 @@ const Team = () => {
   };
 
   const categories = [
-    { id: 'all', name: 'All Members' },
+    { id: 'all', name: 'All' },
+    { id: 'team', name: 'Team' },
     { id: 'leadership', name: 'Leadership' },
     { id: 'technical', name: 'Technical' },
-    { id: 'marketing', name: 'Marketing' }
+    { id: 'marketing', name: 'Marketing' },
+    { id: 'socialmedia', name: 'Social Media' },
+    { id: 'techteam', name: 'Tech Team' }
   ];
 
   const getFilteredMembers = () => {
     if (selectedTeam === 'all') {
-      return [...teamMembers.leadership, ...teamMembers.technical, ...teamMembers.marketing];
+      return [
+        ...teamMembers.leadership,
+        ...teamMembers.technical,
+        ...teamMembers.marketing,
+        ...(teamMembers.socialmedia || []),
+        ...(teamMembers.techteam || [])
+      ];
+    }
+    if (selectedTeam === 'team') {
+      return [
+        ...(teamMembers.socialmedia || []),
+        ...(teamMembers.techteam || [])
+      ];
     }
     return teamMembers[selectedTeam] || [];
   };
