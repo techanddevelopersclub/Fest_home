@@ -40,11 +40,7 @@ const SponsorsPage = () => {
             </h1>
             <Award className="text-yellow-400 animate-pulse" size={48} />
           </div>
-          <div className="h-1.5 w-48 bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500 rounded-full mx-auto shadow-lg shadow-orange-400/50 mb-6"></div>
-          <p className="text-white text-lg sm:text-xl md:text-2xl font-medium drop-shadow-lg max-w-4xl mx-auto mb-8">
-            We are grateful to our esteemed partners who believe in our vision and support our journey towards excellence in education and innovation.
-          </p>
-        </div>
+
 
         {/* Investment Opportunity Section */}
         <div className="mb-20 max-w-6xl mx-auto">
@@ -92,36 +88,16 @@ const SponsorsPage = () => {
               </div>
             </div>
 
-            <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-6">
-              <h3 className="text-2xl font-bold text-white mb-4 text-center">Your Investment Delivers</h3>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-white/90">
-                <div className="flex items-start gap-3">
-                  <span className="text-yellow-400 font-bold text-xl">✓</span>
-                  <p className="text-lg">Premium brand visibility across all festival platforms and marketing materials</p>
-                </div>
-                <div className="flex items-start gap-3">
-                  <span className="text-yellow-400 font-bold text-xl">✓</span>
-                  <p className="text-lg">Direct engagement opportunities with top students and industry professionals</p>
-                </div>
-                <div className="flex items-start gap-3">
-                  <span className="text-yellow-400 font-bold text-xl">✓</span>
-                  <p className="text-lg">Exclusive access to networking events and talent recruitment opportunities</p>
-                </div>
-                <div className="flex items-start gap-3">
-                  <span className="text-yellow-400 font-bold text-xl">✓</span>
-                  <p className="text-lg">Customized sponsorship packages tailored to your marketing objectives</p>
-                </div>
-                <div className="flex items-start gap-3">
-                  <span className="text-yellow-400 font-bold text-xl">✓</span>
-                  <p className="text-lg">Social media amplification and digital marketing support</p>
-                </div>
-                <div className="flex items-start gap-3">
-                  <span className="text-yellow-400 font-bold text-xl">✓</span>
-                  <p className="text-lg">Long-term partnership opportunities and community impact recognition</p>
-                </div>
-              </div>
-            </div>
+
+
           </div>
+<br /><br />
+          <div className="h-1.5 w-48 bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500 rounded-full mx-auto shadow-lg shadow-orange-400/50 mb-6"></div>
+          <p className="text-white text-lg sm:text-xl md:text-2xl font-medium drop-shadow-lg max-w-4xl mx-auto mb-8">
+            We are grateful to our esteemed partners who believe in our vision and support our journey towards excellence in education and innovation.
+          </p>
+        </div>
+
         </div>
 
         {/* Sponsors Grid */}
