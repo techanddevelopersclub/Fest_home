@@ -4,9 +4,8 @@
       "id": 1,
       "name": "Wheels of Wonder",
       "image": "https://res.cloudinary.com/duyzpk8ym/image/upload/v1762455342/340b84d5-0cbe-46f3-bdce-3532e4e02b3d_rhyxaj.jpg",
-      
-      "short_description": "Gear up for Wheels of Wonder, a thrilling robot race where teams build their own bots and navigate through a challenging maze track, testing speed, strategy, and innovation at every turn."
-      ,
+      "link": "https://drive.google.com/drive/folders/1J4nFH3bqd-D9vd0V_-KGpi5AlfjJZw5W",
+      "short_description": "Gear up for Wheels of Wonder, a thrilling robot race where teams build their own bots and navigate through a challenging maze track, testing speed, strategy, and innovation at every turn.",
       "speaker": {
         "speaker_name": "Adam Leno",
         "company": "Tech.e",
@@ -22,38 +21,36 @@
       "id": 2,
       "name": "Quest-e-carvaan",
       "image": "https://res.cloudinary.com/duyzpk8ym/image/upload/v1762455013/Screenshot_2025-11-07_001939_nv4qjb.png",
-     
+      "link": "",
       "short_description": "Embark on a mystical journey with our Treasure Hunt, where each clue leads your caravan deeper into the land of wonders, mystery, and discovery."
-
     },
 
     {
       "id": 3,
       "name": "Hackathon",
       "image": "https://res.cloudinary.com/duyzpk8ym/image/upload/v1762454304/Hackathon_2_osicko.png",
-
+      "link": "",
       "short_description": "Join us for the Hackathon, where creativity meets technology. Collaborate with like-minded individuals to develop innovative solutions and bring your ideas to life."
     },
     {
       "id": 4,
       "name": "Campus Starlight & Cosnova",
       "image": "https://res.cloudinary.com/duyzpk8ym/image/upload/v1762454427/cosnova_o0201z.png",
-     
+      "link": "https://drive.google.com/drive/folders/1J4nFH3bqd-D9vd0V_-KGpi5AlfjJZw5W",
       "short_description": "Modeling and Cosplay competition where participants showcase their talents in fashion design, makeup artistry, and character portrayal, celebrating creativity and self-expression."
-
     },
     {
       "id": 5,
       "name": "Rhythm Riot",
       "image": "https://res.cloudinary.com/duyzpk8ym/image/upload/v1762454433/rhythm_riots_hugb07.png",
-    
+      "link": "https://drive.google.com/drive/folders/1J4nFH3bqd-D9vd0V_-KGpi5AlfjJZw5W",
       "short_description": "Competition for group dance. Teams will compete in various dance styles, showcasing their choreography, synchronization, and stage presence to captivate the audience and judges alike."
     },
     {
       "id": 6,
       "name": "Mic it Happen",
       "image": "https://res.cloudinary.com/duyzpk8ym/image/upload/v1762454430/mic_it_happen_ljgtap.png",
-
+      "link": "",
       "short_description": "Open mic event where participants can showcase their talents in music, poetry, comedy, and more, creating a vibrant platform for artistic expression and community engagement."
     }
   ]

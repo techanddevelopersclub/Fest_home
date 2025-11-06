@@ -9,6 +9,7 @@ import Team from "../components/pages/Team/Team";
 import Spornsor from "../components/pages/Home/Sponsors/Spornsor";
 import Gallery from "../components/pages/Gallery/Gallery";
 import ContactUs from "../components/pages/ContactUs/ContactUs";
+import Brochure from "../components/pages/Brochure/Brochure";
 
 const router = createBrowserRouter([
   {
@@ -55,6 +56,10 @@ const router = createBrowserRouter([
       {
         path: "/contact-us",
         element: <ContactUs />,
+      },
+      {
+        path: "/brouchre",
+        element: <Brochure />,
       },
     ],
   },
