@@ -6,7 +6,7 @@ import AboutUs from "../components/pages/AboutUs/AboutUs";
 import Speakers from "../components/pages/Events/Speakers";
 import ErrorPage from "../components/pages/ErrorPage";
 import Team from "../components/pages/Team/Team";
-import Spornsor from "../components/pages/Sponsors/Spornsor";
+import Spornsor from "../components/pages/Sponsors/SpornsorPage";
 import Gallery from "../components/pages/Gallery/Gallery";
 import ContactUs from "../components/pages/ContactUs/ContactUs";
 import Brochure from "../components/pages/Brochure/Brochure";
