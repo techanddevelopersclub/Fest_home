@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { mockSponsors } from './mockSponsor';
-import { Award, ExternalLink, Quote, TrendingUp, Users, Target, Sparkles } from 'lucide-react';
+import { Award, ExternalLink, Quote, TrendingUp, Users, Target, Sparkles, Download } from 'lucide-react';
 import './SponsorPage.css';
 
 const SponsorsPage = () => {
@@ -203,21 +203,25 @@ const SponsorsPage = () => {
               we have a sponsorship package designed to meet your goals. Join industry leaders who are shaping the future.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-              <Link 
-                to="/brouchre"
-                className="cta-button inline-flex items-center justify-center gap-2"
-              >
-                Read Our Brouchre
-                <ExternalLink size={20} />
-              </Link>
-              <Link 
-                to="/contact-us"
-                className="cta-button inline-flex items-center justify-center gap-2 bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700"
-              >
-                Contact Us
-                <ExternalLink size={20}  />
-              </Link>
-            </div>
+  {/* --- THIS IS THE UPDATED BUTTON --- */}
+  <a 
+    href="/Cieszyc_Sponsorship_Brochure.pdf"
+    download="Cieszyc_Sponsorship_Brochure.pdf"
+    className="cta-button inline-flex items-center justify-center gap-2"
+  >
+    Download Brochure
+    <Download size={20} />
+  </a>
+ 
+
+  <Link 
+    to="/contact-us"
+    className="cta-button inline-flex items-center justify-center gap-2 bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700"
+  >
+    Contact Us
+    <ExternalLink size={20}  />
+  </Link>
+</div>
             <p className="text-white/70 text-sm mt-6">
               Ready to make an impact? Download our comprehensive brochure or reach out to our team for a personalized consultation.
             </p>
