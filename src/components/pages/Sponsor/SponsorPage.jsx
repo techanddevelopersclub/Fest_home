@@ -215,7 +215,7 @@ const SponsorsPage = () => {
                 className="cta-button inline-flex items-center justify-center gap-2 bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700"
               >
                 Contact Us
-                <ExternalLink size={20} />
+                <ExternalLink size={20}  />
               </Link>
             </div>
             <p className="text-white/70 text-sm mt-6">
