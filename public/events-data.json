@@ -6,7 +6,17 @@
       "image": "https://res.cloudinary.com/duyzpk8ym/image/upload/v1762455342/340b84d5-0cbe-46f3-bdce-3532e4e02b3d_rhyxaj.jpg",
       
       "short_description": "Gear up for Wheels of Wonder, a thrilling robot race where teams build their own bots and navigate through a challenging maze track, testing speed, strategy, and innovation at every turn."
-
+      ,
+      "speaker": {
+        "speaker_name": "Adam Leno",
+        "company": "Tech.e",
+        "profile_pic": "https://i.ibb.co/JrPy9XM/profile-1.jpg"
+      },
+      "schedule": {
+        "time": "08:30 - 09:30",
+        "place_onsite": "On-site",
+        "place_online": "Online"
+      }
     },
     {
       "id": 2,
@@ -16,6 +26,7 @@
       "short_description": "Embark on a mystical journey with our Treasure Hunt, where each clue leads your caravan deeper into the land of wonders, mystery, and discovery."
 
     },
+
     {
       "id": 3,
       "name": "Hackathon",
