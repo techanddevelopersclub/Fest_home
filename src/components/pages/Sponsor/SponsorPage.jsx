@@ -52,9 +52,9 @@ const SponsorsPage = () => {
             <div className="text-center mb-10">
               <div className="flex items-center justify-center gap-3 mb-4">
                 <TrendingUp className="text-yellow-400" size={40} />
-                <h2 className="text-4xl sm:text-5xl md:text-6xl font-black text-white drop-shadow-2xl">
+                <h3 className="text-4xl sm:text-5xl md:text-6xl font-black text-white drop-shadow-2xl">
                   Why Invest in Cieszyc Festival?
-                </h2>
+                </h3>
                 <Sparkles className="text-yellow-400" size={40} />
               </div>
               <div className="h-1 w-32 bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500 rounded-full mx-auto mb-6"></div>
