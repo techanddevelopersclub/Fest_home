@@ -11,7 +11,7 @@ const Team = () => {
         id: 1,
         name: "Mr. Himanshu Nautiyal",
         role: "Festival Dean",
-        image: "../../assets/video/dean.jpg",
+        image: "https://res.cloudinary.com/duyzpk8ym/image/upload/v1762456273/dean_ypprav.jpg",
         // bio: "Visionary academic leader steering Cieszyc with strategic direction, mentorship, and a culture of collaboration across teams.",
         // social: {
         //   linkedin: "",

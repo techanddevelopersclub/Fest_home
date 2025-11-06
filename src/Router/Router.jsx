@@ -31,7 +31,7 @@ const router = createBrowserRouter([
         element: <EventExternalRedirect />,
       },
       {
-        path: "/Speakers",
+        path: "/speakers",
         element: <Speakers />,
         loader: () => fetch("/events-data.json"),
       },
