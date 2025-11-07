@@ -25,28 +25,28 @@ const Team = () => {
         id: 2,
         name: "Dr. Ramna Tripathi",
         role: "Festival Coordinator",
-        image: "",
+        image: "https://res.cloudinary.com/duyzpk8ym/image/upload/v1762537342/ramnatripathi_tcrkoa.png",
         // bio: "",
       },
       {
         id: 3,
         name: "Mr. Mandeep Guleria",
         role: "Festival Coordinator",
-        image: "",
+        image: "https://res.cloudinary.com/duyzpk8ym/image/upload/v1762537339/TPO_isylax.png",
         // bio: "",
       },
       {
         id: 15,
         name: "Mr. Sameer Verma",
         role: "Festival Co-Coordinator",
-        image: "",
+        image: "https://res.cloudinary.com/duyzpk8ym/image/upload/v1762537367/1757794446200_1_b9nhjk.png",
         // bio: "",
       },
       {
         id: 16,
         name: "Mr. Mahesh Aghwaria",
         role: "Festival Co-Coordinator",
-        image: "",
+        image: "https://res.cloudinary.com/duyzpk8ym/image/upload/v1762537381/1670867357387_j66v1e.png",
         // bio: "",
       },
       {
@@ -66,7 +66,7 @@ const Team = () => {
         id: 5,
         name: "Mr. Rajwardhan Arya",
         role: "Event Coordinator",
-        image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&h=400&fit=crop",
+        image: "https://res.cloudinary.com/duyzpk8ym/image/upload/v1762537494/WhatsApp_Image_2025-11-07_at_22.01.08_pnoqfc.png",
         // bio: "Event coordinator specializing in content narratives, creator partnerships, and audience engagement that converts.",
         // social: {
         //   linkedin: "https://linkedin.com/in/socialmedia",
@@ -96,7 +96,7 @@ const Team = () => {
         id: 7,
         name: "Mr. Pallav Aswal",
         role: "Technical Coordinator",
-        image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&h=400&fit=crop",
+        image: "https://res.cloudinary.com/duyzpk8ym/image/upload/v1762539796/WhatsApp_Image_2025-11-07_at_23.52.22_jgip7l.jpg",
         // bio: "Primary technical POC ensuring smooth infrastructure, timely support, and rapid incident response.",
         // social: {
         //   linkedin: "https://linkedin.com/in/webdev",
@@ -126,7 +126,7 @@ const Team = () => {
         id: 9,
         name: "Mr. Neeraj Bisht",
         role: "Social Media Coordinator",
-        image: "https://images.unsplash.com/photo-1463453091185-61582044d556?w=400&h=400&fit=crop",
+        image: "https://res.cloudinary.com/duyzpk8ym/image/upload/v1762544115/WhatsApp_Image_2025-11-08_at_01.04.22_qiipng.jpg",
         // bio: "Social media coordinator crafting data‑led campaigns, timely storytelling, and community amplification.",
         // social: {
         //   linkedin: "https://linkedin.com/in/graphicdesigner",
@@ -155,7 +155,7 @@ const Team = () => {
         id: 11,
         name: "Mr. Satendra Pathak",
         role: "Marketing Coordinator",
-        image: "https://images.unsplash.com/photo-1463453091185-61582044d556?w=400&h=400&fit=crop",
+        image: "https://res.cloudinary.com/duyzpk8ym/image/upload/v1762538137/Gemini_Generated_Image_m8tdl9m8tdl9m8td_o9civ7.png",
         // bio: "Marketing coordinator focusing on partnerships, on‑ground visibility, and measurable growth.",
         // social: {
         //   linkedin: "https://linkedin.com/in/graphicdesigner",
@@ -173,10 +173,10 @@ const Team = () => {
         // bio: "",
       },
       {
-        id: 18,
+        id: 13,
         name: "Ayushree Vyas",
         role: "Marketing Student Coordinator",
-        image: "",
+        image: "https://res.cloudinary.com/duyzpk8ym/image/upload/v1762540192/WhatsApp_Image_2025-11-07_at_21.33.13_mlvptg.jpg",
         // bio: "",
         social: {
           linkedin: "https://www.linkedin.com/in/ayushree-vyas?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
@@ -189,15 +189,106 @@ const Team = () => {
     ],
     techteam: [
       {
-        id: 14,
-        name: "",
-        role: "",
+        id: 17,
+        name: "Rachit Dwivedi",
+        role: "Front End Developer ",
+        image: "https://res.cloudinary.com/duyzpk8ym/image/upload/v1762542967/IMG_20251105_215901_-_Rachit_Dwivedi_nmqgme.jpg",
+       
+        social: {
+          linkedin: "https://www.linkedin.com/in/rachit-dwivedi-818a052b1",      
+          instagram: "https://www.instagram.com/rachit_dwivedi_rdx?igsh=ZTBvNWp3enV1eGV0",
+          github: "https://github.com/rachit-dwivedi-rdx",
+          
+        }
+      },
+      {
+        id: 18,
+        name: "Suraj Singh",
+        role: "Frontend Developer and UI/UX Designer",
+        image: "https://res.cloudinary.com/duyzpk8ym/image/upload/v1762542968/IMG_20250629_111700_164_-_Suraj_Singh_eb3hng.webp",
+       
+        social: {
+          linkedin: "https://www.linkedin.com/in/suraj-singh-39b954298?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",      
+          instagram: "https://www.instagram.com/singh_suraj_8267?igsh=MXVhaXQ2czBveTUwZA==",
+          github: "https://github.com/Suraj8267",
+          
+        }
+      },
+      {
+        id: 19,
+        name: "Mayank Mehta",
+        role: "Frontend developer/UIUX Designer",
+        image: "https://res.cloudinary.com/duyzpk8ym/image/upload/v1762542967/IMG-20251105-WA0048_-_Mayank_Mehta_ngu8tq.jpg",
+       
+        social: {
+          linkedin: "https://www.linkedin.com/in/mayank-mehta-915b79386?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",      
+          instagram: "https://www.instagram.com/mayank_mehtaa_?igsh=aTY4YzZxZ3gxbWd4",
+          github: "https://github.com/Mayank-Mehta242",
+          
+        }
+      },
+      {
+        id: 20,
+        name: "Divyanshi Joshi",
+        role: "Web developer",
+        image: "https://res.cloudinary.com/duyzpk8ym/image/upload/v1762542966/divvvvv_-_DIVYANSHI_JOSHI_akr3c0.jpg",
+       
+        social: {
+          // linkedin: "",      
+          instagram: "https://www.instagram.com/itsannu4932?utm_source=qr&igsh=bWNvenh5MzM4ZGF0",
+          // github: "",
+          
+        }
+      },
+      {
+        id: 21,
+        name: "SHEETAL",
+        role: "Web developer",
+        image: "https://res.cloudinary.com/duyzpk8ym/image/upload/v1762542966/IMG-20251106-WA0052_-_Sheetal_Kohli_fs7ora.jpg",
+       
+        social: {
+          // linkedin: "",      
+          // instagram: "",
+          // github: "",
+          
+        }
+      },
+      {
+        id: 22,
+        name: "Shruti Semwal ",
+        role: "Web developer",
+        image: "https://res.cloudinary.com/duyzpk8ym/image/upload/v1762542967/IMG-20250817-WA0007_-_Shruti_xjyyzx.jpg",
+       
+        social: {
+          // linkedin: "",      
+          // instagram: "",
+          // github: "",
+          
+        }
+      },
+      {
+        id: 23,
+        name: "Pradumna Singh Hada",
+        role: "Co-Coordinator Graphic Designing ",
+        image: "https://res.cloudinary.com/duyzpk8ym/image/upload/v1762542967/Snapchat-1185126490_-_CRPX7_gj3akv.jpg",
+       
+        social: {
+          linkedin: "https://www.linkedin.com/in/pradumna-singh-hada-a41a78326?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",      
+          instagram: "https://www.instagram.com/pradumnasinghhada?igsh=amJuZTk0N3c3ZWEz",
+          // github: "",
+          
+        }
+      },
+      {
+        id: 24,
+        name: "Prakhar Gupta",
+        role: "Graphic Designing Co-Coordinator ",
         image: "",
        
         social: {
-          linkedin: "",      
-          instagram: "",
-          github: "",
+          linkedin: "https://www.linkedin.com/in/prakhar-gupta-31704a26a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",      
+          instagram: "https://www.instagram.com/hailprakhar?igsh=djlwcXo3cXB5dDk1",
+          // github: "",
           
         }
       },
