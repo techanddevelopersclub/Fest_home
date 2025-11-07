@@ -6,11 +6,9 @@ import AboutUs from "../components/pages/AboutUs/AboutUs";
 import Speakers from "../components/pages/Events/Speakers";
 import ErrorPage from "../components/pages/ErrorPage";
 import Team from "../components/pages/Team/Team";
-// Fest_home\src\components\pages\Sponsor\SponsorPage.jsx
-import Spornsor from "../components/pages/Sponsor/SponsorPage";
+import Spornsor from "../components/pages/Home/Sponsors/Spornsor";
 import Gallery from "../components/pages/Gallery/Gallery";
 import ContactUs from "../components/pages/ContactUs/ContactUs";
-import Brochure from "../components/pages/Brochure/Brochure";
 
 const router = createBrowserRouter([
   {
@@ -33,7 +31,7 @@ const router = createBrowserRouter([
         element: <EventExternalRedirect />,
       },
       {
-        path: "/speakers",
+        path: "/Speakers",
         element: <Speakers />,
         loader: () => fetch("/events-data.json"),
       },
@@ -57,10 +55,6 @@ const router = createBrowserRouter([
       {
         path: "/contact-us",
         element: <ContactUs />,
-      },
-      {
-        path: "/brouchre",
-        element: <Brochure />,
       },
     ],
   },

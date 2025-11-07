@@ -11,226 +11,131 @@ const Team = () => {
         id: 1,
         name: "Mr. Himanshu Nautiyal",
         role: "Festival Dean",
-        image: "https://res.cloudinary.com/duyzpk8ym/image/upload/v1762456273/dean_ypprav.jpg",
-        // bio: "Visionary academic leader steering Cieszyc with strategic direction, mentorship, and a culture of collaboration across teams.",
-        // social: {
-        //   linkedin: "",
-        //   twitter: "",
-        //   instagram: "",
-        //   github: "",
-        //   email: ""
-        // }
-      },
-      {
-        id: 2,
-        name: "Dr. Ramna Tripathi",
-        role: "Festival Coordinator",
-        image: "",
-        // bio: "",
-      },
-      {
-        id: 3,
-        name: "Mr. Mandeep Guleria",
-        role: "Festival Coordinator",
-        image: "",
-        // bio: "",
-      },
-      {
-        id: 15,
-        name: "Mr. Sameer Verma",
-        role: "Festival Co-Coordinator",
-        image: "",
-        // bio: "",
-      },
-      {
-        id: 16,
-        name: "Mr. Mahesh Aghwaria",
-        role: "Festival Co-Coordinator",
-        image: "",
-        // bio: "",
-      },
-      {
-        id: 4,
-        name: "Akshat Kestwal",
-        role: "Festival Student Coordinator",
-        image: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=400&h=400&fit=crop",
-        // bio: "Design‑first coordinator focused on intuitive journeys, inclusive visuals, and consistent brand storytelling.",
+        image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop",
+        bio: "Visionary leader guiding the festival to new heights",
         social: {
-          linkedin: "https://www.linkedin.com/in/akshat-kestwal-4798a6259/",
-          // twitter: "",
-          instagram: "https://www.instagram.com/akshat_kestwal4/",
-          email: "akshatkestwal@gmail.com"
+          linkedin: "https://linkedin.com/in/himanshu-nautiyal",
+          twitter: "",
+          instagram: "https://instagram.com/himanshu_thdc",
+          github: "",
+          email: "dean@thdc.edu"
         }
       },
       {
-        id: 5,
-        name: "Mr. Rajwardhan Arya",
+        id: 2,
+        name: "Festival Coordinator",
         role: "Event Coordinator",
-        image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&h=400&fit=crop",
-        // bio: "Event coordinator specializing in content narratives, creator partnerships, and audience engagement that converts.",
-        // social: {
-        //   linkedin: "https://linkedin.com/in/socialmedia",
-        //   twitter: "https://twitter.com/thdc_social",
-        //   instagram: "https://instagram.com/thdc.social",
-        //   github: "",
-        //   email: "social@thdc.edu"
-        // }
-      },
-      {
-        id: 6,
-        name: "Shreya Kukreti",
-        role: "Event Student Coordinator",
-        image: "https://res.cloudinary.com/duyzpk8ym/image/upload/v1762379150/20250908_132007_-_shreya_kukreti_uuufbg.jpg",
-        // bio: "Event coordinator specializing in content narratives, creator partnerships, and audience engagement that converts.",
+        image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop",
+        bio: "Orchestrating seamless event execution",
         social: {
-          // linkedin: "https://linkedin.com/in/socialmedia",
-          // twitter: "https://twitter.com/thdc_social",
-          instagram: "https://www.instagram.com/_shee_yaah?igsh=MXRpeGhyaDBvcjA1Nw==",
-          // github: "",
-          email: "sskle22ce43@thdcihet.ac.in"
+          linkedin: "https://linkedin.com/in/coordinator",
+          twitter: "",
+          instagram: "https://instagram.com/fest_coordinator",
+          github: "",
+          email: "coordinator@thdc.edu"
         }
       }
     ],
     technical: [
       {
-        id: 7,
-        name: "Mr. Pallav Aswal",
-        role: "Technical Coordinator",
+        id: 3,
+        name: "Suraj Singh",
+        role: "Technical Lead",
+        image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&h=400&fit=crop",
+        bio: "Leading technical innovations for the festival",
+        social: {
+          linkedin: "https://linkedin.com/in/suraj-singh",
+          twitter: "",
+          instagram: "https://instagram.com/suraj.tech",
+          github: "https://github.com/surajsingh",
+          email: "suraj@thdc.edu"
+        }
+      },
+      {
+        id: 4,
+        name: "Web Developer",
+        role: "Full Stack Developer",
         image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&h=400&fit=crop",
-        // bio: "Primary technical POC ensuring smooth infrastructure, timely support, and rapid incident response.",
-        // social: {
-        //   linkedin: "https://linkedin.com/in/webdev",
-        //   twitter: "",
-        //   instagram: "https://instagram.com/webdev_thdc",
-        //   github: "https://github.com/webdev",
-        //   email: "webdev@thdc.edu"
-        // }
+        bio: "Building the digital experience",
+        social: {
+          linkedin: "https://linkedin.com/in/webdev",
+          twitter: "",
+          instagram: "https://instagram.com/webdev_thdc",
+          github: "https://github.com/webdev",
+          email: "webdev@thdc.edu"
+        }
+      },
+      {
+        id: 5,
+        name: "UI/UX Designer",
+        role: "Design Lead",
+        image: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=400&h=400&fit=crop",
+        bio: "Crafting beautiful user experiences",
+        social: {
+          linkedin: "https://linkedin.com/in/designer",
+          twitter: "",
+          instagram: "https://instagram.com/design_thdc",
+          github: "",
+          email: "designer@thdc.edu"
+        }
+      }
+    ],
+    marketing: [
+      {
+        id: 6,
+        name: "Marketing Head",
+        role: "Marketing Director",
+        image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&h=400&fit=crop",
+        bio: "Driving brand awareness and engagement",
+        social: {
+          linkedin: "https://linkedin.com/in/marketing-head",
+          twitter: "https://twitter.com/marketing_thdc",
+          instagram: "https://instagram.com/marketing.thdc",
+          github: "",
+          email: "marketing@thdc.edu"
+        }
+      },
+      {
+        id: 7,
+        name: "Social Media Manager",
+        role: "Content Strategist",
+        image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&h=400&fit=crop",
+        bio: "Creating viral content and campaigns",
+        social: {
+          linkedin: "https://linkedin.com/in/socialmedia",
+          twitter: "https://twitter.com/thdc_social",
+          instagram: "https://instagram.com/thdc.social",
+          github: "",
+          email: "social@thdc.edu"
+        }
       },
       {
         id: 8,
-        name: "Vaibhav Pokhriyal",
-        role: "Technical Student Coordinator",
-        image: "https://res.cloudinary.com/duyzpk8ym/image/upload/v1762358486/WhatsApp_Image_2025-09-07_at_00.07.56_de79fd97-removebg-preview_nfpxqj.png",
-        // bio: "Technical coordinator leading outreach tooling, analytics pipelines, and performance monitoring for campaigns.",
-        social: {
-          linkedin: "https://www.linkedin.com/in/vaibhav-pokhriyal-237b86259/",
-          // twitter: "https://twitter.com/marketing_thdc",
-          instagram: "https://www.instagram.com/vaibhav_11_3/",
-          github: "https://github.com/VaibhavPo",
-          email: "vp22cs55@thdcihet.ac.in"
-        }
-      }
-    ],
-    socialmedia: [
-      {
-        id: 9,
-        name: "Mr. Neeraj Bisht",
-        role: "Social Media Coordinator",
+        name: "Graphic Designer",
+        role: "Visual Designer",
         image: "https://images.unsplash.com/photo-1463453091185-61582044d556?w=400&h=400&fit=crop",
-        // bio: "Social media coordinator crafting data‑led campaigns, timely storytelling, and community amplification.",
-        // social: {
-        //   linkedin: "https://linkedin.com/in/graphicdesigner",
-        //   twitter: "",
-        //   instagram: "https://instagram.com/design.thdc",
-        //   github: "",
-        //   email: "design@thdc.edu"
-        // }
-      },
-      {
-        id: 10,
-        name: "Paras Sundriyal",
-        role: "Social Media StudentCoordinator",
-        image: "https://res.cloudinary.com/duyzpk8ym/image/upload/v1762379150/IMG-20250510-WA0214_-_Paras_Sundriyal_r2xnxi.jpg",
-        // bio: "Social media coordinator curating platform‑native content, trends, and interactive audience formats.",
+        bio: "Bringing ideas to life through design",
         social: {
-          linkedin: "https://www.linkedin.com/in/paras-sundriyal-b6270218a/",
-          // twitter: "",
-          instagram: "https://www.instagram.com/okay_paras/",
-          // github: "",
-          email: "paras.starkmarkup@gmail.com"
-        }
-      },],
-      marketing: [
-      {
-        id: 11,
-        name: "Mr. Satendra Pathak",
-        role: "Marketing Coordinator",
-        image: "https://images.unsplash.com/photo-1463453091185-61582044d556?w=400&h=400&fit=crop",
-        // bio: "Marketing coordinator focusing on partnerships, on‑ground visibility, and measurable growth.",
-        // social: {
-        //   linkedin: "https://linkedin.com/in/graphicdesigner",
-        //   twitter: "",
-        //   instagram: "https://instagram.com/design.thdc",
-        //   github: "",
-        //   email: "design@thdc.edu"
-        // }
-      },
-      {
-        id: 12,
-        name: "Shivain Sharma",
-        role: "Marketing Student Coordinator",
-        image: "",
-        // bio: "",
-      },
-      {
-        id: 18,
-        name: "Ayushree Vyas",
-        role: "Marketing Student Coordinator",
-        image: "",
-        // bio: "",
-        social: {
-          linkedin: "https://www.linkedin.com/in/ayushree-vyas?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
-      
-          instagram: "https://www.instagram.com/ayushree_vyas?igsh=N3E3ZXB1dXljcWM%3D&utm_source=qr",
-         
-          
-        }
-      }
-    ],
-    techteam: [
-      {
-        id: 14,
-        name: "",
-        role: "",
-        image: "",
-       
-        social: {
-          linkedin: "",      
-          instagram: "",
+          linkedin: "https://linkedin.com/in/graphicdesigner",
+          twitter: "",
+          instagram: "https://instagram.com/design.thdc",
           github: "",
-          
+          email: "design@thdc.edu"
         }
-      },
-     
-
+      }
     ]
   };
 
   const categories = [
-    { id: 'all', name: 'All' },
-    // { id: 'team', name: 'Team' },
+    { id: 'all', name: 'All Members' },
     { id: 'leadership', name: 'Leadership' },
     { id: 'technical', name: 'Technical' },
-    { id: 'marketing', name: 'Marketing' },
-    { id: 'socialmedia', name: 'Social Media' },
-    { id: 'techteam', name: 'Tech Team' }
+    { id: 'marketing', name: 'Marketing' }
   ];
 
   const getFilteredMembers = () => {
     if (selectedTeam === 'all') {
-      return [
-        ...teamMembers.leadership,
-        ...teamMembers.technical,
-        ...teamMembers.marketing,
-        ...(teamMembers.socialmedia || []),
-        ...(teamMembers.techteam || [])
-      ];
-    }
-    if (selectedTeam === 'team') {
-      return [
-        ...(teamMembers.socialmedia || []),
-        ...(teamMembers.techteam || [])
-      ];
+      return [...teamMembers.leadership, ...teamMembers.technical, ...teamMembers.marketing];
     }
     return teamMembers[selectedTeam] || [];
   };
@@ -289,10 +194,9 @@ const Team = () => {
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                 />
                 
-                {/* Social Media Icons - Vertical Stack on Left Side */
-                }
+                {/* Social Media Icons - Vertical Stack on Left Side */}
                 <div className="absolute left-4 top-1/2 -translate-y-1/2 flex flex-col gap-3 opacity-0 group-hover:opacity-100 transition-all duration-300 transform -translate-x-4 group-hover:translate-x-0">
-                  {member.social?.linkedin && (
+                  {member.social.linkedin && (
                     <a 
                       href={member.social.linkedin} 
                       target="_blank" 
@@ -304,7 +208,7 @@ const Team = () => {
                     </a>
                   )}
                   
-                  {member.social?.instagram && (
+                  {member.social.instagram && (
                     <a 
                       href={member.social.instagram} 
                       target="_blank" 
@@ -316,7 +220,7 @@ const Team = () => {
                     </a>
                   )}
                   
-                  {member.social?.email && (
+                  {member.social.email && (
                     <a 
                       href={`mailto:${member.social.email}`}
                       className="w-12 h-12 flex items-center justify-center bg-white/95 hover:bg-rose-600 rounded-lg shadow-2xl transition-all duration-300 hover:scale-110 backdrop-blur-sm group/icon"
@@ -326,7 +230,7 @@ const Team = () => {
                     </a>
                   )}
                   
-                  {member.social?.twitter && (
+                  {member.social.twitter && (
                     <a 
                       href={member.social.twitter} 
                       target="_blank" 
@@ -338,7 +242,7 @@ const Team = () => {
                     </a>
                   )}
                   
-                  {member.social?.github && (
+                  {member.social.github && (
                     <a 
                       href={member.social.github} 
                       target="_blank" 
@@ -355,38 +259,35 @@ const Team = () => {
               {/* Info */}
               <div className="p-6">
                 <h3 className="text-white text-xl font-bold mb-2">{member.name}</h3>
-                <p className="text-purple-300 text-sm font-semibold uppercase tracking-wider mb-2">{member.role}</p>
-                {member.bio && (
-                  <p className="text-white/80 text-sm mb-4">{member.bio}</p>
-                )}
+                <p className="text-purple-300 text-sm font-semibold uppercase tracking-wider mb-4">{member.role}</p>
 
                 {/* Social Links */}
                 <div className="flex gap-3 justify-center pt-4 border-t border-white/10">
-                  {member.social?.linkedin && (
+                  {member.social.linkedin && (
                     <a href={member.social.linkedin} target="_blank" rel="noopener noreferrer" 
                        className="text-white/60 hover:text-blue-400 transition-colors">
                       <Linkedin size={20} />
                     </a>
                   )}
-                  {member.social?.twitter && (
+                  {member.social.twitter && (
                     <a href={member.social.twitter} target="_blank" rel="noopener noreferrer"
                        className="text-white/60 hover:text-sky-400 transition-colors">
                       <Twitter size={20} />
                     </a>
                   )}
-                  {member.social?.instagram && (
+                  {member.social.instagram && (
                     <a href={member.social.instagram} target="_blank" rel="noopener noreferrer"
                        className="text-white/60 hover:text-pink-400 transition-colors">
                       <Instagram size={20} />
                     </a>
                   )}
-                  {member.social?.github && (
+                  {member.social.github && (
                     <a href={member.social.github} target="_blank" rel="noopener noreferrer"
                        className="text-white/60 hover:text-purple-400 transition-colors">
                       <Github size={20} />
                     </a>
                   )}
-                  {member.social?.email && (
+                  {member.social.email && (
                     <a href={`mailto:${member.social.email}`}
                        className="text-white/60 hover:text-rose-400 transition-colors">
                       <Mail size={20} />

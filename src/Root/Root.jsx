@@ -8,39 +8,6 @@ const Root = () => {
   const [previousPath, setPreviousPath] = useState("/");
   const location = useLocation();
 
-  // Initialize AOS animations
-  useEffect(() => {
-    const initAOS = () => {
-      // Wait for AOS to be available (it's loaded in index.html)
-      const checkAOS = setInterval(() => {
-        if (typeof window !== 'undefined' && window.AOS) {
-          window.AOS.init({
-            duration: 800,
-            easing: 'ease-in-out',
-            once: true,
-            mirror: false,
-            offset: 100
-          });
-          clearInterval(checkAOS);
-        }
-      }, 50);
-
-      // Fallback: if AOS doesn't load within 2 seconds, clear interval
-      setTimeout(() => clearInterval(checkAOS), 2000);
-    };
-
-    initAOS();
-    
-    // Refresh AOS when route changes to trigger animations on new page
-    const timer = setTimeout(() => {
-      if (typeof window !== 'undefined' && window.AOS) {
-        window.AOS.refresh();
-      }
-    }, 100);
-
-    return () => clearTimeout(timer);
-  }, [location.pathname]);
-
   useEffect(() => {
     // Only trigger folding animation when leaving home page to other pages
     if (previousPath === "/" && location.pathname !== "/") {

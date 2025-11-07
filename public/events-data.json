@@ -2,10 +2,10 @@
   "events": [
     {
       "id": 1,
-      "name": "Wheels of Wonder",
-      "image": "https://res.cloudinary.com/duyzpk8ym/image/upload/v1762455342/340b84d5-0cbe-46f3-bdce-3532e4e02b3d_rhyxaj.jpg",
-      "link": "https://drive.google.com/file/d/1owxk1J0cKAAVtwhXsOisgHLC47QT-n-K/view",
-      "short_description": "Gear up for Wheels of Wonder, a thrilling robot race where teams build their own bots and navigate through a challenging maze track, testing speed, strategy, and innovation at every turn.",
+      "name": "Tech Square",
+      "image": "https://i.ibb.co/Lz7wpMs/Tech-Square-Card-1.png",
+      "price": 29.99,
+      "short_description": "Talk with product experts, experience innovations in Tech Square. Catch up on new updates from Samsung platforms and OS like SmartThings, Knox and Tizen, Mobile & Screen Experience, Home & Health Experience, Sustainability.",
       "speaker": {
         "speaker_name": "Adam Leno",
         "company": "Tech.e",
@@ -19,39 +19,87 @@
     },
     {
       "id": 2,
-      "name": "Quest-e-carvaan",
-      "image": "https://res.cloudinary.com/duyzpk8ym/image/upload/v1762455013/Screenshot_2025-11-07_001939_nv4qjb.png",
-      "link": "",
-      "short_description": "Embark on a mystical journey with our Treasure Hunt, where each clue leads your caravan deeper into the land of wonders, mystery, and discovery."
+      "name": "Creatively designed video editing",
+      "image": "https://i.ibb.co/9tPfT1y/gaming.jpg",
+      "price": 39.99,
+      "short_description": "A student is sitting at a creatively designed video editing,While pre-production gives you your plan, and production gives you your footage, you really make your movie in post-production editing.      A solid technical background is essential if you want to create a professional product, but these days editors are supported by excellent digital software applications and newer editing techniques like non-linear editing. In this segment, we take a look at the most effective video editing techniques, new options for software editing and when and how to use them. Master these edit types and make your videos more exciting with a style of your own.",
+      "speaker": {
+        "speaker_name": "Lopez Kya",
+        "company": "Guru99",
+        "profile_pic": "https://i.ibb.co/xhH5S8P/profile-3.jpg"
+      },
+      "schedule": {
+        "time": "09:30 - 10:30",
+        "place_onsite": "On-site",
+        "place_online": "Online"
+      }
     },
-
     {
       "id": 3,
-      "name": "Hackathon",
-      "image": "https://res.cloudinary.com/duyzpk8ym/image/upload/v1762454304/Hackathon_2_osicko.png",
-      "link": "",
-      "short_description": "Join us for the Hackathon, where creativity meets technology. Collaborate with like-minded individuals to develop innovative solutions and bring your ideas to life."
+      "name": "Expo promoting artificial",
+      "image": "https://i.ibb.co/yPV4Hp9/ai-playground.jpg",
+      "price": 49.99,
+      "short_description": "generate an image for a technology expo promoting artificial intelligence and machine learning. The picture must have vibrant colors and chrome yellow and white theme",
+      "speaker": {
+        "speaker_name": "Anne Claire",
+        "company": "OpenAi",
+        "profile_pic": "https://i.ibb.co/0XmpbKj/profile-6.jpg"
+      },
+      "schedule": {
+        "time": "10:30 - 11:30",
+        "place_onsite": "On-site",
+        "place_online": "Online"
+      }
     },
     {
       "id": 4,
-      "name": "Campus Starlight & Cosnova",
-      "image": "https://res.cloudinary.com/duyzpk8ym/image/upload/v1762454427/cosnova_o0201z.png",
-      "link": "https://drive.google.com/file/d/1Fg8EsDjP8C0Ub29Yyhi2CCktAoMmPNIO/view?usp=drive_link",
-      "short_description": "Modeling and Cosplay competition where participants showcase their talents in fashion design, makeup artistry, and character portrayal, celebrating creativity and self-expression."
+      "name": "Young students eagerly coding",
+      "image": "https://i.ibb.co/6BGjs8N/coding-for-clidren.jpg",
+      "price": 59.99,
+      "short_description": "An inspiring image that encapsulates young students eagerly exploring coding on sleek, modern computers. Visual references to a variety of coding languages, including Scratch or Python, could hint at the diverse coursework such as Pure Python and Mastering Halocode",
+      "speaker": {
+        "speaker_name": "James Bon",
+        "company": "Google",
+        "profile_pic": "https://i.ibb.co/6nd5BsY/Coding-Profile.jpg"
+      },
+      "schedule": {
+        "time": "11:30 - 12:30",
+        "place_onsite": "On-site",
+        "place_online": "Online"
+      }
     },
     {
       "id": 5,
-      "name": "Rhythm Riot",
-      "image": "https://res.cloudinary.com/duyzpk8ym/image/upload/v1762454433/rhythm_riots_hugb07.png",
-      "link": "https://drive.google.com/file/d/1ITT7fddFL2zjwNouwhI6BJvfu3Doi-kx/view?usp=drive_link",
-      "short_description": "Competition for group dance. Teams will compete in various dance styles, showcasing their choreography, synchronization, and stage presence to captivate the audience and judges alike."
+      "name": "Business Workshop",
+      "image": "https://i.ibb.co/jWqPzMg/busines-workshop.jpg",
+      "price": 69.99,
+      "short_description": "A workshop to show you how to write a Business Plan - focus on why you are writing it, the format/template and key messages in each section to include ",
+      "speaker": {
+        "speaker_name": "Kang Wook",
+        "company": "Amazon",
+        "profile_pic": "https://i.ibb.co/qBjhkJC/profile-4.jpg"
+      },
+      "schedule": {
+        "time": "02:30 - 03:30",
+        "place_onsite": "On-site"
+      }
     },
     {
       "id": 6,
-      "name": "Mic it Happen",
-      "image": "https://res.cloudinary.com/duyzpk8ym/image/upload/v1762454430/mic_it_happen_ljgtap.png",
-      "link": "",
-      "short_description": "Open mic event where participants can showcase their talents in music, poetry, comedy, and more, creating a vibrant platform for artistic expression and community engagement."
+      "name": "Digital Workshop",
+      "image": "https://i.ibb.co/QcMZNcx/digital-workshop.jpg",
+      "price": 79.99,
+      "short_description": "Our digital features workshop is a first step to creating a website specification, user stories or a shared place of understanding for your stakeholders.",
+      "speaker": {
+        "speaker_name": "Aaron Swift",
+        "company": "Microsoft",
+        "profile_pic": "https://i.ibb.co/FnYWjjP/Profile-2.jpg"
+      },
+      "schedule": {
+        "time": "03:30 - 04:30",
+        "place_onsite": "On-site",
+        "place_online": "Online"
+      }
     }
   ]
 }

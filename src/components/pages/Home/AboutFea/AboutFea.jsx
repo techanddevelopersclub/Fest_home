@@ -36,11 +36,7 @@ const AboutFea = () => {
           data-aos="fade-up"
           data-aos-delay="300"
         >
-         Get ready to experience the electrifying energy,
-non-stop excitement, and unforgettable moments
-at CIESZYC! Join us as we bring together the best
-talent, music, and entertainment for an epic
-celebration of student life
+          Step into the Caravan of Wonders — where every stop unveils a new marvel, every moment sparks wonder, and every soul becomes a traveler through realms of imagination, art, and discovery.
         </p>
 
         {/* Bottom Decorative Elements */}

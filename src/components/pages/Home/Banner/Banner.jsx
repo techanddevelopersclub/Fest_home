@@ -79,8 +79,8 @@ const Banner = () => {
           <div className="text-center lg:text-left w-full lg:w-auto">
             <div className="mb-3 sm:mb-4 drop-shadow-2xl">
               <img 
-                src="https://res.cloudinary.com/duyzpk8ym/image/upload/v1762457545/CIESZYC_25_20251014_023007_0000_io68s6.png" 
-                alt="CIESZYC '2K25" 
+                src="/CIESZYC '25_20251014_023007_0000.png" 
+                alt="CIESZYC '25" 
                 className="max-w-full h-auto w-auto mx-auto lg:mx-0 object-contain"
                 style={{ 
                   maxHeight: 'clamp(60px, 12vw, 150px)',
