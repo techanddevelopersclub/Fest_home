@@ -8,88 +8,88 @@ const Gallery = () => {
   const galleryImages = [
     {
       id: 1,
-      url: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&h=600&fit=crop",
+      url: "src/assets/images/cultural_performance.jpg",
       category: "events",
       title: "Cultural Night Performance",
-      date: "Oct 2024"
+      date: "Oct 2024",
     },
     {
       id: 2,
-      url: "https://images.unsplash.com/photo-1511578314322-379afb476865?w=800&h=600&fit=crop",
+      url: "src/assets/images/tech_workshop.jpg",
       category: "events",
       title: "Tech Workshop",
-      date: "Sep 2024"
+      date: "Sep 2024",
     },
     {
       id: 3,
-      url: "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=800&h=600&fit=crop",
+      url: "src/assets/images/hackathon.jpg",
       category: "competitions",
       title: "Hackathon 2024",
-      date: "Aug 2024"
+      date: "Aug 2024",
     },
     {
       id: 4,
-      url: "https://images.unsplash.com/photo-1501281668745-f7f57925c3b4?w=800&h=600&fit=crop",
+      url: "src/assets/images/dance.JPG",
       category: "campus",
       title: "Campus Life",
-      date: "Oct 2024"
+      date: "Oct 2024",
     },
     {
       id: 5,
-      url: "https://images.unsplash.com/photo-1523580494863-6f3031224c94?w=800&h=600&fit=crop",
+      url: "src/assets/images/music_festival.jpg",
       category: "events",
       title: "Music Festival",
-      date: "Sep 2024"
+      date: "Sep 2024",
     },
     {
       id: 6,
-      url: "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?w=800&h=600&fit=crop",
+      url: "",
       category: "campus",
       title: "Campus View",
-      date: "Jul 2024"
+      date: "Jul 2024",
     },
     {
       id: 7,
-      url: "https://images.unsplash.com/photo-1515187029135-18ee286d815b?w=800&h=600&fit=crop",
+      url: "",
       category: "competitions",
       title: "Dance Competition",
-      date: "Oct 2024"
+      date: "Oct 2024",
     },
     {
       id: 8,
-      url: "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=800&h=600&fit=crop",
+      url: "",
       category: "events",
       title: "Opening Ceremony",
-      date: "Oct 2024"
+      date: "Oct 2024",
     },
     {
       id: 9,
-      url: "https://images.unsplash.com/photo-1522158637959-30385a09e0da?w=800&h=600&fit=crop",
+      url: "src/assets/images/hardware_hackathon.JPG",
       category: "campus",
       title: "Student Activity",
-      date: "Sep 2024"
+      date: "Sep 2024",
     },
     {
       id: 10,
-      url: "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?w=800&h=600&fit=crop",
+      url: "",
       category: "events",
       title: "Award Ceremony",
-      date: "Aug 2024"
+      date: "Aug 2024",
     },
     {
       id: 11,
-      url: "https://images.unsplash.com/photo-1496024840928-4c417adf211d?w=800&h=600&fit=crop",
+      url: "",
       category: "competitions",
       title: "Quiz Competition",
-      date: "Sep 2024"
+      date: "Sep 2024",
     },
     {
       id: 12,
-      url: "https://images.unsplash.com/photo-1517457373958-b7bdd4587205?w=800&h=600&fit=crop",
+      url: "src/assets/images/labroratory.JPG",
       category: "campus",
       title: "Study Session",
-      date: "Oct 2024"
-    }
+      date: "Oct 2024",
+    },
   ];
 
   const categories = [
