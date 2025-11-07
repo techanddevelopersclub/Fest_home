@@ -8,7 +8,7 @@ const Gallery = () => {
   const galleryImages = [
     {
       id: 1,
-      url: "src/assets/images/cultural_night_perfromance.jpeg",
+      url: "assets/images/cultural_night_perfromance.jpeg",
       category: "events",
       title: "Cultural Night Performance",
       date: "Oct 2024",
