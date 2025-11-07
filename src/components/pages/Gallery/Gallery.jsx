@@ -8,7 +8,7 @@ const Gallery = () => {
   const galleryImages = [
     {
       id: 1,
-      url: "src/assets/images/cultural_performance.jpg",
+      url: "src/assets/images/cultural_night_perfromance.jpeg",
       category: "events",
       title: "Cultural Night Performance",
       date: "Oct 2024",
@@ -43,21 +43,21 @@ const Gallery = () => {
     },
     {
       id: 6,
-      url: "",
+      url: "src/assets/images/campus.jpg",
       category: "campus",
       title: "Campus View",
       date: "Jul 2024",
     },
     {
       id: 7,
-      url: "",
+      url: "src/assets/images/cultural_performance.JPG",
       category: "competitions",
       title: "Dance Competition",
       date: "Oct 2024",
     },
     {
       id: 8,
-      url: "",
+      url: "src/assets/images/final_of_event.jpeg",
       category: "events",
       title: "Opening Ceremony",
       date: "Oct 2024",
@@ -71,14 +71,14 @@ const Gallery = () => {
     },
     {
       id: 10,
-      url: "",
+      url: "src/assets/images/award_cerimony_on_stage.jpeg",
       category: "events",
       title: "Award Ceremony",
       date: "Aug 2024",
     },
     {
       id: 11,
-      url: "",
+      url: "src/assets/images/quiz.JPG",
       category: "competitions",
       title: "Quiz Competition",
       date: "Sep 2024",
