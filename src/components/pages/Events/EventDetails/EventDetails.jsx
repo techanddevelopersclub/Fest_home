@@ -27,7 +27,7 @@ const EventDetails = () => {
   return (
     <div>
       <EventDetailsCard event={event} />
-      <div className="h-screen">
+      <div className="w-full aspect-video">
         <EventView />
       </div>
       {/* <ThreeJs /> */}

@@ -44,10 +44,11 @@ const ContactUs = () => {
                     <h3 className="text-white font-display font-bold text-xl mb-2">Coordinator</h3>
                     <p className="text-white/80 font-body font-light">For general queries or assistance.</p>
                     <a 
-                      href="tel:+911234567890"
+                      href="tel:+916396834004"
                       className="text-purple-300 hover:text-pink-300 transition-colors block mt-1"
                     >
-                      +91 12345 67890
+                      +91 6396834004 |
+                      Akshat Kestwal
                     </a>
                   </div>
                 </div>
@@ -63,10 +64,11 @@ const ContactUs = () => {
                     <h3 className="text-white font-display font-bold text-xl mb-2">Technical Issue</h3>
                     <p className="text-white/80">Facing any problem accessing or using the site?</p>
                     <a 
-                      href="tel:+919876543210"
+                      href="tel:+919548179856"
                       className="text-purple-300 hover:text-pink-300 transition-colors block mt-1"
                     >
-                      +91 98765 43210
+                      +919548179856 |
+                      Paras Sundriyal
                     </a>
                   </div>
                 </div>
@@ -82,10 +84,11 @@ const ContactUs = () => {
                     <h3 className="text-white font-display font-bold text-xl mb-2">Tech Coordinator</h3>
                     <p className="text-white/80">For website or technical collaboration.</p>
                     <a 
-                      href="tel:+919999888877"
+                      href="tel:+919528187139"
                       className="text-purple-300 hover:text-pink-300 transition-colors block mt-1"
                     >
-                      +91 99998 88877
+                      +91 9528187139 |
+                      Vaibhav Pokhriyal
                     </a>
                   </div>
                 </div>
