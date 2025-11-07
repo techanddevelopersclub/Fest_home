@@ -36,7 +36,7 @@ const Gallery = () => {
     },
     {
       id: 5,
-      url: "/Assets/images/music_festival.jpg",
+      url: "/Assets/images/music_festival.JPG",
       category: "events",
       title: "Music Festival",
       date: "Sep 2024",
