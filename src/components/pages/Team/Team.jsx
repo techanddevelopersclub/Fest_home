@@ -283,7 +283,7 @@ const Team = () => {
         id: 24,
         name: "Prakhar Gupta",
         role: "Graphic Designing Co-Coordinator ",
-        image: "",
+        image: "https://res.cloudinary.com/duyzpk8ym/image/upload/v1762544446/1000061730_1_e1qzvv.jpg",
        
         social: {
           linkedin: "https://www.linkedin.com/in/prakhar-gupta-31704a26a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",      
