@@ -36,11 +36,10 @@ const AboutFea = () => {
           data-aos="fade-up"
           data-aos-delay="300"
         >
-         Get ready to experience the electrifying energy,
-non-stop excitement, and unforgettable moments
-at CIESZYC! Join us as we bring together the best
-talent, music, and entertainment for an epic
-celebration of student life
+Get ready to experience the electrifying energy, non-stop excitement, and unforgettable moments at CIESZYC – the Annual Fest of THDC-IHET!
+Join us as we bring together the best of talent, music, art, and entertainment for an epic celebration of student life that you’ll remember forever!
+
+
         </p>
 
         {/* Bottom Decorative Elements */}
