@@ -210,13 +210,25 @@ const Gallery = () => {
               <X size={28} />
             </button>
 
-            {/* Image */}
-            <div className="relative rounded-3xl overflow-hidden border-4 border-white/20 shadow-2xl shadow-purple-500/50">
-              <img
-                src={selectedImage.url}
-                alt={selectedImage.title}
-                className="w-full h-auto max-h-[85vh] object-contain bg-black"
-              />
+            {/* Image or Video */}
+            <div className="relative rounded-3xl overflow-hidden border-4 border-white/20 shadow-2xl shadow-purple-500/50 flex items-center justify-center bg-black">
+              {selectedImage.url.endsWith(".mp4") ? (
+                <video
+                  src={selectedImage.url}
+                  autoPlay
+                  muted
+                  loop
+                  controls
+                  playsInline
+                  className="w-full h-auto max-h-[85vh] rounded-3xl object-contain transition-opacity duration-700 opacity-100"
+                />
+              ) : (
+                <img
+                  src={selectedImage.url}
+                  alt={selectedImage.title}
+                  className="w-full h-auto max-h-[85vh] object-contain bg-black"
+                />
+              )}
 
               {/* Image Info */}
               <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black via-black/80 to-transparent p-8">
