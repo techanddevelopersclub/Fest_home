@@ -53,7 +53,7 @@ const Team = () => {
         id: 4,
         name: "Akshat Kestwal",
         role: "Festival Student Coordinator",
-        image: "https://res.cloudinary.com/duyzpk8ym/image/upload/v1762534535/WhatsApp_Image_2025-11-07_at_22.20.39_2dbde634_wpdppu.jpg",
+        image: "https://res.cloudinary.com/duyzpk8ym/image/upload/v1762618662/WhatsApp_Image_2025-11-07_at_22.30.06_9b66f920_lu6af2.jpg",
         // bio: "Design‑first coordinator focused on intuitive journeys, inclusive visuals, and consistent brand storytelling.",
         social: {
           linkedin: "https://www.linkedin.com/in/akshat-kestwal-4798a6259/",

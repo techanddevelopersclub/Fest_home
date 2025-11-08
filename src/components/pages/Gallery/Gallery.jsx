@@ -8,13 +8,20 @@ const Gallery = () => {
   const galleryImages = [
     {
       id: 1,
+      url: "https://res.cloudinary.com/duyzpk8ym/video/upload/v1762618567/WhatsApp_Video_2025-11-08_at_21.39.11_6e7dd4af_pvvhys.mp4",
+      category: "events",
+      title: "THDC IHET",
+      date: "Nov 2025",
+    },
+    {
+      id: 2,
       url: "/Assets/images/cultural_night_perfromance.jpeg",
       category: "events",
       title: "Cultural Night Performance",
       date: "Oct 2024",
     },
     {
-      id: 2,
+      id: 13,
       url: "/Assets/images/tech_workshop.jpg",
       category: "events",
       title: "Tech Workshop",
