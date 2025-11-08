@@ -106,10 +106,13 @@ const Gallery = () => {
     { id: "campus", name: "Campus Life" },
   ];
 
+  const featuredVideo = galleryImages.find((img) => img.id === 1);
   const filteredImages =
     selectedCategory === "all"
-      ? galleryImages
-      : galleryImages.filter((img) => img.category === selectedCategory);
+      ? galleryImages.filter((img) => img.id !== 1)
+      : galleryImages.filter(
+          (img) => img.category === selectedCategory && img.id !== 1
+        );
 
   return (
     <div className="min-h-screen py-16 px-4 md:px-8">
@@ -129,6 +132,32 @@ const Gallery = () => {
           </p>
         </div>
 
+        {/* 🌟 Featured Video */}
+        {featuredVideo && (
+          <div
+            className="relative mb-20 rounded-3xl overflow-hidden border-4 border-white/10 shadow-2xl shadow-pink-500/50 cursor-pointer max-w-5xl mx-auto"
+            onClick={() => setSelectedImage(featuredVideo)}
+          >
+            <video
+              src={featuredVideo.url}
+              autoPlay
+              muted
+              loop
+              playsInline
+              className="w-full h-[500px] object-cover rounded-3xl"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent flex flex-col justify-end p-8">
+              <h2 className="text-4xl md:text-5xl font-display font-black text-white drop-shadow-lg mb-2">
+                {featuredVideo.title}
+              </h2>
+              <div className="flex items-center gap-3 text-pink-300 text-lg font-body">
+                <Calendar size={20} />
+                <span>{featuredVideo.date}</span>
+              </div>
+            </div>
+          </div>
+        )}
+
         {/* Category Filters */}
         <div className="flex flex-wrap justify-center gap-4 mb-16">
           {categories.map((category) => (
@@ -146,7 +175,7 @@ const Gallery = () => {
           ))}
         </div>
 
-        {/* Gallery Grid */}
+        {/* Gallery Grid (rest of images) */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
           {filteredImages.map((image, index) => (
             <div
@@ -174,15 +203,11 @@ const Gallery = () => {
                       <span>{image.date}</span>
                     </div>
                   </div>
-
-                  {/* Zoom Icon */}
                   <div className="absolute top-4 right-4 transform translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300">
                     <div className="bg-gradient-to-r from-purple-600 to-pink-600 p-3 rounded-full shadow-2xl">
                       <ZoomIn className="text-white" size={24} />
                     </div>
                   </div>
-
-                  {/* Corner Accent */}
                   <div className="absolute top-0 left-0 w-20 h-20 bg-gradient-to-br from-purple-600/30 to-transparent"></div>
                 </div>
               </div>
@@ -201,7 +226,6 @@ const Gallery = () => {
             className="relative max-w-6xl w-full"
             onClick={(e) => e.stopPropagation()}
           >
-            {/* Close Button */}
             <button
               onClick={() => setSelectedImage(null)}
               className="absolute -top-16 right-0 w-12 h-12 flex items-center justify-center bg-white/10 hover:bg-gradient-to-r hover:from-purple-600 hover:to-pink-600 rounded-full text-white transition-all duration-300 hover:scale-110 font-display"
@@ -210,7 +234,7 @@ const Gallery = () => {
               <X size={28} />
             </button>
 
-            {/* Image or Video */}
+            {/* Image or Video in Modal */}
             <div className="relative rounded-3xl overflow-hidden border-4 border-white/20 shadow-2xl shadow-purple-500/50 flex items-center justify-center bg-black">
               {selectedImage.url.endsWith(".mp4") ? (
                 <video
@@ -230,7 +254,6 @@ const Gallery = () => {
                 />
               )}
 
-              {/* Image Info */}
               <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black via-black/80 to-transparent p-8">
                 <h2 className="text-white text-3xl md:text-4xl font-display font-black mb-4 drop-shadow-2xl">
                   {selectedImage.title}
