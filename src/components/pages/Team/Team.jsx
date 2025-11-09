@@ -151,20 +151,21 @@ const Team = () => {
         }
       },],
       marketing: [
-      {
-        id: 11,
-        name: "Mr. Satendra Pathak",
-        role: "Marketing Coordinator",
-        image: "https://res.cloudinary.com/duyzpk8ym/image/upload/v1762538137/Gemini_Generated_Image_m8tdl9m8tdl9m8td_o9civ7.png",
-        // bio: "Marketing coordinator focusing on partnerships, on‑ground visibility, and measurable growth.",
-        // social: {
-        //   linkedin: "https://linkedin.com/in/graphicdesigner",
-        //   twitter: "",
-        //   instagram: "https://instagram.com/design.thdc",
-        //   github: "",
-        //   email: "design@thdc.edu"
-        // }
-      },
+      // {
+      //   id: 11,
+      //   name: "Mr. Satendra Pathak",
+      //   role: "Marketing Coordinator",
+      //   image: "https://res.cloudinary.com/duyzpk8ym/image/upload/v1762538137/Gemini_Generated_Image_m8tdl9m8tdl9m8td_o9civ7.png",
+      //   // bio: "Marketing coordinator focusing on partnerships, on‑ground visibility, and measurable growth.",
+      //   // social: {
+      //   //   linkedin: "https://linkedin.com/in/graphicdesigner",
+      //   //   twitter: "",
+      //   //   instagram: "https://instagram.com/design.thdc",
+      //   //   github: "",
+      //   //   email: "design@thdc.edu"
+      //   // }
+      // },
+      
       {
         id: 12,
         name: "Shivain Sharma",
