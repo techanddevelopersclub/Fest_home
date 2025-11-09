@@ -172,6 +172,13 @@ const Team = () => {
         role: "Marketing Student Coordinator",
         image: "https://res.cloudinary.com/duyzpk8ym/image/upload/v1762672589/WhatsApp_Image_2025-11-09_at_12.40.37_f6d46fa6_ukmg8y.jpg",
         // bio: "",
+                social: {
+          // linkedin: "https://www.linkedin.com/in/ayushree-vyas?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
+      
+          instagram: "https://www.instagram.com/sharmashivain34?igsh=OXIwdmhlMndnZDUy",
+         
+          
+        }
       },
       {
         id: 13,
