@@ -36,7 +36,7 @@ const Gallery = () => {
     },
     {
       id: 4,
-      url: "/Assets/images/dance.JPG",
+      url: "https://res.cloudinary.com/duyzpk8ym/image/upload/v1762673814/WhatsApp_Image_2025-11-09_at_12.57.50_f3307773_whodfk.jpg",
       category: "campus",
       title: "Campus Life",
       date: "Oct 2024",
