@@ -165,12 +165,12 @@ const Team = () => {
       //   //   email: "design@thdc.edu"
       //   // }
       // },
-      
+
       {
         id: 12,
         name: "Shivain Sharma",
         role: "Marketing Student Coordinator",
-        image: "",
+        image: "https://res.cloudinary.com/duyzpk8ym/image/upload/v1762672589/WhatsApp_Image_2025-11-09_at_12.40.37_f6d46fa6_ukmg8y.jpg",
         // bio: "",
       },
       {
