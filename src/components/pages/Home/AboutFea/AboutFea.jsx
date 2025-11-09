@@ -41,6 +41,18 @@ Join us as we bring together the best of talent, music, art, and entertainment f
 
 
         </p>
+{/* === NEWLY ADDED BROCHURE LINK === */}
+<div data-aos="fade-up" data-aos-delay="350">
+          <a
+            href="/cieszyc-brochure-2025.pdf" // <-- *** UPDATE THIS PATH ***
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block px-8 py-3 mt-4 bg-gradient-to-r from-pink-500 to-purple-600 text-white font-body font-semibold rounded-full shadow-lg hover:scale-105 hover:shadow-xl transition-all duration-300 ease-in-out transform"
+          >
+            View This Year's Brochure
+          </a>
+        </div>
+
 
         {/* Bottom Decorative Elements */}
         <div 
