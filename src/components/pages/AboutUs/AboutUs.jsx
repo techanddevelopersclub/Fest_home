@@ -1,7 +1,8 @@
-import { Link } from "react-router-dom";
-// import bgVideo from "https://res.cloudinary.com/duyzpk8ym/video/upload/v1762618567/WhatsApp_Video_2025-11-08_at_21.39.11_6e7dd4af_pvvhys.mp4";
 import campusMap from "../../../assets/images/campus-map.png";
 import { MapPin, Navigation } from "lucide-react";
+
+// Use a plain URL string for the remote video to avoid bundler import issues
+const bgVideo = "https://res.cloudinary.com/duyzpk8ym/video/upload/v1762618567/WhatsApp_Video_2025-11-08_at_21.39.11_6e7dd4af_pvvhys.mp4";
 
 const AboutUs = () => {
   return (
@@ -10,7 +11,7 @@ const AboutUs = () => {
       <div className="relative w-full lg:h-[100vh] md:h-[80vh] h-[70vh] overflow-hidden">
         <video
           className="object-cover h-full w-full brightness-125 contrast-110"
-          src={'https://res.cloudinary.com/duyzpk8ym/video/upload/v1762618567/WhatsApp_Video_2025-11-08_at_21.39.11_6e7dd4af_pvvhys.mp4'}
+          src={bgVideo}
           autoPlay
           loop
           muted
