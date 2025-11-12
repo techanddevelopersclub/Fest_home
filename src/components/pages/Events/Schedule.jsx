@@ -74,7 +74,7 @@ const Schedule = () => {
         <div data-aos="fade-right" className="flex flex-col lg:flex-row items-center lg:items-start gap-10 lg:gap-12 group">
           <div className="flex flex-col items-center gap-4 transform transition-all duration-500 group-hover:scale-105">
             <div className="w-56 h-72 sm:w-64 sm:h-80 md:w-72 md:h-96 bg-gradient-to-br from-purple-500/20 to-pink-600/20 rounded-3xl overflow-hidden flex-shrink-0 shadow-2xl hover:shadow-purple-400/50 transition-all duration-500 hover:scale-105 border-4 border-purple-400/30 hover:border-purple-400/60">
-              <img src="https://res.cloudinary.com/duyzpk8ym/image/upload/v1762456417/blank-avatar-photo-icon-design-600nw-1682415103_tt5ho6.jpg" alt="Faculty Coordinator" className="w-full h-full object-cover" onError={(e) => {e.target.style.display='none'; e.target.nextSibling.style.display='flex'}} />
+              <img src="https://res.cloudinary.com/duyzpk8ym/image/upload/v1762537342/ramnatripathi_tcrkoa.png" alt="Faculty Coordinator" className="w-full h-full object-cover" onError={(e) => {e.target.style.display='none'; e.target.nextSibling.style.display='flex'}} />
               <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-gray-700 to-gray-800" style={{display: 'none'}}>
                 <span className="text-gray-400 text-lg text-center px-4">Faculty Photo</span>
               </div>
