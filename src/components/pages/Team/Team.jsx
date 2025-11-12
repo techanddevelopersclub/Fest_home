@@ -194,6 +194,20 @@ const Team = () => {
           
         }
       }
+    ,       {
+        id: 25,
+        name: "Abhinav Vyas",
+        role: "Finance Student Coordinator",
+        image: "https://res.cloudinary.com/duyzpk8ym/image/upload/v1762935813/IMG_7691_-_Abhinav_Vyas_gmttay.jpg",
+        // bio: "",
+        social: {
+          linkedin: "https://www.linkedin.com/in/abhinav-vyas-214112255?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+      
+          instagram: "https://www.instagram.com/abhinavvyas_10",
+         
+          
+        }
+      }
     ],
     techteam: [
       {
