@@ -314,6 +314,20 @@ const Team = () => {
           
         }
       },
+
+            {
+        id: 26,
+        name: "Utsav",
+        role: "Graphic Designing Coordinator",
+        image: "https://res.cloudinary.com/duyzpk8ym/image/upload/v1763038129/WhatsApp_Image_2025-11-13_at_18.18.35_6d2f6eea_eyya4g.jpg",
+       
+        social: {
+          // linkedin: "https://www.linkedin.com/in/prakhar-gupta-31704a26a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",      
+          // instagram: "https://www.instagram.com/hailprakhar?igsh=djlwcXo3cXB5dDk1",
+          // github: "",
+          
+        }
+      },
      
 
     ]
