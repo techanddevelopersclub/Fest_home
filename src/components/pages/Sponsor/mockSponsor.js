@@ -1,56 +1,57 @@
 export const mockSponsors = [
-  {
-    id: 1,
-    name: "TechCorp Solutions",
-    logo: "https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?w=400&h=400&fit=crop",
-    description: "Leading provider of enterprise software solutions",
-    quote: "Partnering with this institution has been instrumental in nurturing the next generation of tech innovators.",
-    tier: "Platinum",
-    website: "https://techcorp.example.com"
-  },
+
   {
     id: 2,
-    name: "InnovateLabs",
-    logo: "https://images.unsplash.com/photo-1560179707-f14e90ef3623?w=400&h=400&fit=crop",
-    description: "Innovation-driven research and development company",
-    quote: "The talent and creativity we've witnessed here inspires us to push boundaries in technology.",
-    tier: "Gold",
-    website: "https://innovatelabs.example.com"
+    name: "THDC India Limited",
+    logo: "https://via.placeholder.com/400x400.png?text=THDC+India",
+    description: "Hydropower and infrastructure company supporting regional development.",
+    quote: "Proud to support local educational and cultural initiatives.",
+    tier: "Diamond",
+    website: "https://thdc.co.in"
   },
   {
     id: 3,
-    name: "Digital Dynamics",
-    logo: "https://images.unsplash.com/photo-1572044162444-ad60f128bdea?w=400&h=400&fit=crop",
-    description: "Digital transformation and consulting services",
-    quote: "Investing in education is investing in the future. Proud to support such an esteemed institution.",
-    tier: "Gold",
-    website: "https://digitaldynamics.example.com"
+    name: "District Administration, Tehri Garhwal",
+    logo: "https://via.placeholder.com/400x400.png?text=Tehri+District",
+    description: "Local government body providing administrative support for the event.",
+    quote: "Committed to promoting community events and youth development.",
+    tier: "Platinum",
+    website: "https://tehri.nic.in"
   },
   {
     id: 4,
-    name: "CloudNine Technologies",
-    logo: "https://images.unsplash.com/photo-1553729459-efe14ef6055d?w=400&h=400&fit=crop",
-    description: "Cloud infrastructure and security solutions",
-    quote: "Together, we're building a smarter, more connected future through collaboration and innovation.",
-    tier: "Silver",
-    website: "https://cloudnine.example.com"
+    name: "Mrs. Nitika Khandelwal",
+    logo: "https://via.placeholder.com/400x400.png?text=Nitika+K",
+    description: "District-level supporter and event patron.",
+    quote: "Honoured to encourage the creativity and leadership of our students.",
+    tier: "Gold",
+    website: null
   },
   {
     id: 5,
-    name: "FutureTech Industries",
-    logo: "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=400&h=400&fit=crop",
-    description: "AI and machine learning solutions provider",
-    quote: "The exceptional standards of education here align perfectly with our vision for technological advancement.",
-    tier: "Platinum",
-    website: "https://futuretech.example.com"
+    name: "Ms. Ishita Sajwan",
+    logo: "https://via.placeholder.com/400x400.png?text=Ishita+S",
+    description: "District Panchayat President and community leader.",
+    quote: "Supporting initiatives that uplift students and local talent.",
+    tier: "Gold",
+    website: null
   },
   {
     id: 6,
-    name: "Quantum Systems",
-    logo: "https://images.unsplash.com/photo-1614028674026-a65e31bfd27c?w=400&h=400&fit=crop",
-    description: "Next-generation computing solutions",
-    quote: "Supporting education means supporting innovation. We're honored to be part of this journey.",
+    name: "Shri Umesh Kumar Sharma",
+    logo: "https://via.placeholder.com/400x400.png?text=Umesh+K",
+    description: "Regional leader and event supporter.",
+    quote: "Happy to contribute to programs that build skills and confidence.",
     tier: "Silver",
-    website: "https://quantumsys.example.com"
+    website: null
+  },
+  {
+    id: 7,
+    name: "Shri Pradeep Batra",
+    logo: "https://via.placeholder.com/400x400.png?text=Pradeep+B",
+    description: "Community sponsor supporting outreach and logistics.",
+    quote: "Encouraging participation across the district.",
+    tier: "Silver",
+    website: null
   }
 ];
