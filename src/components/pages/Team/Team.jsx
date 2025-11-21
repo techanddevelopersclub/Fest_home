@@ -236,6 +236,19 @@ const Team = () => {
           
         }
       },
+            {
+        id: 27,
+        name: "Ayushi Saini",
+        role: "Coordinator Tech Team",
+        image: "https://res.cloudinary.com/duyzpk8ym/image/upload/v1763720393/WhatsApp_Image_2025-11-18_at_19.04.41_032059e0_udctwr.jpg",
+       
+        social: {
+          linkedin: "https://www.linkedin.com/in/ayushi-saini-3a17b8287?utm_source=share_via&utm_content=profile&utm_medium=member_android",      
+          instagram: "https://www.instagram.com/ayushiiii.irl?igsh=MXQwNDBuZ3ZuczkzNg==",
+          // github: "https://github.com/Mayank-Mehta242",
+          
+        }
+      },
       {
         id: 19,
         name: "Mayank Mehta",
