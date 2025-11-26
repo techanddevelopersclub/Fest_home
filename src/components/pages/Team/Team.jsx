@@ -96,7 +96,7 @@ const Team = () => {
         id: 7,
         name: "Mr. Pallav Aswal",
         role: "Technical Coordinator",
-        image: "https://res.cloudinary.com/duyzpk8ym/image/upload/v1762539796/WhatsApp_Image_2025-11-07_at_23.52.22_jgip7l.jpg",
+        image: "https://res.cloudinary.com/duyzpk8ym/image/upload/v1764147351/WhatsApp_Image_2025-11-26_at_12.56.21_36a5310a_sfblvw.jpg",
         // bio: "Primary technical POC ensuring smooth infrastructure, timely support, and rapid incident response.",
         // social: {
         //   linkedin: "https://linkedin.com/in/webdev",
